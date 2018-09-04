@@ -2,7 +2,7 @@ from base.browsersetup import DriverSet
 from pages.login_page import LoginPage
 from pages.createsurvey import CreateSurvey
 from pages.survey_operations import EditElements
-from pages.surveyquestions import SurveyQuestionPage
+from pages.survey_question import SurveyQuestionPage
 from utilities.sendkeysconfig import *
 from pages.addquestionsbydragdrop import SurveyQuestion
 

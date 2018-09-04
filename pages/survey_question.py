@@ -60,13 +60,13 @@ class SurveyQuestionPage(BasePage):
     _multiple_textbox_level_3 = "//section[2]/div[2]/div[2]/div[1]/div[1]/table[1]/tbody[1]/tr[5]/td[1]/div[1]/div[1]"
 
     # question 9
-    _question_nine_select_type = "//option[contains(text(),'Yes - No')]"
+    _question_yes_no_select_type = "//option[contains(text(),'Yes - No')]"
 
     # question 10
     _question_ten_type = "//ul[@class='add-q-menu-left']//a[text()='Comment Box']"
 
     #verify questions
-    _text_1 = "//span[text()='"+ question_no_1+"']"
+    _text_1 = "//h4[@class='question-title-container']//span[text()='"+ question_no_1+"']"
     _text_1_type="//a[@id='changeQType']//span[text()='" + type_singletextbox + "']"
     _text_2 = "//span[text()='"+ question_no_2+"']"
     _text_2_type = "//a[@id='changeQType']//span[text()='" + type_multiplechoice + "']"
@@ -87,8 +87,30 @@ class SurveyQuestionPage(BasePage):
     _text_10 = "//span[text()='"+ question_no_10+"']"
     _text_10_type = "//a[@id='changeQType']//span[text()='" + type_commentbox + "']"
 
+    #checkboxes loctaor
+    _check_box1="//div[text()='"+ checkbox_1_data+"']"
+    _check_box2 = "//div[text()='" + checkbox_2_data + "']"
+    _check_box3 = "//div[text()='" + checkbox_3_data + "']"
+    _check_box4 = "//div[text()='" + checkbox_4_data + "']"
+    _check_box5 = "//div[text()='" + checkbox_5_data + "']"
+
+    #multiple textboxes locator
+    _first_texbox = "//div[text()='1']"
+    _second_texbox = "//div[text()='2']"
+    _third_texbox = "//div[text()='3']"
+
+    # matrix rating locator
+    _row_1="//div[text()='"+ scale_1+"']"
+    _row_2 = "//div[text()='" + scale_2 + "']"
+    _row_3 = "//div[text()='" + scale_3 + "']"
+    _column_1="//div[text()='" + one + "']"
+    _column_2 = "//div[text()='" + two + "']"
+    _column_3 = "//div[text()='" + three + "']"
+    _column_4 = "//div[text()='" + four + "']"
+
     # method to save and next question
     def save(self):
+        time.sleep(5)
         self.wait_for_element(locator=self._save_question, locator_type="xpath", timeout=5,pollFrequency=1)
         time.sleep(5)
         self.element_click(self._save_question,locator_type="xpath")
@@ -152,8 +174,8 @@ class SurveyQuestionPage(BasePage):
         self.wait_for_element(locator=self._question_five_type, locator_type="xpath", pollFrequency=1)
         self.element_click(self._question_five_type, locator_type="xpath")
         self.element_click(self._question_select_choice)
-        self.wait_for_element(locator=self._question_nine_select_type, locator_type="xpath",pollFrequency=1)
-        self.element_click(self._question_nine_select_type,locator_type="xpath")
+        self.wait_for_element(locator=self._question_yes_no_select_type, locator_type="xpath",pollFrequency=1)
+        self.element_click(self._question_yes_no_select_type,locator_type="xpath")
         SurveyQuestionPage.save(self)
 
     # method to add 6th question
@@ -220,8 +242,8 @@ class SurveyQuestionPage(BasePage):
         self.element_click(self._question_two_and_nine_type, locator_type="xpath")
         self.wait_for_element(locator=self._question_select_choice, pollFrequency=1)
         self.element_click(self._question_select_choice)
-        self.wait_for_element(locator=self._question_nine_select_type, locator_type="xpath", pollFrequency=1)
-        self.element_click(self._question_nine_select_type, locator_type="xpath")
+        self.wait_for_element(locator=self._question_yes_no_select_type, locator_type="xpath", pollFrequency=1)
+        self.element_click(self._question_yes_no_select_type, locator_type="xpath")
         SurveyQuestionPage.save(self)
 
     # method to add 10th question
@@ -232,156 +254,118 @@ class SurveyQuestionPage(BasePage):
         self.element_click(self._question_ten_type, locator_type="xpath")
         SurveyQuestionPage.save(self)
 
-    # success of questions(verification) by question title/text
-    # def verify_question_one(self):
-    #     self.wait_for_element(locator=self._text_1, locator_type="xpath", timeout=5, pollFrequency=1)
-    #     result = self.is_element_present(locator=self._text_1, locator_type="xpath")
-    #     return result
-    #
-    # def verify_question_two(self):
-    #     self.wait_for_element(locator=self._text_2, locator_type="xpath", timeout=5, pollFrequency=1)
-    #     result = self.is_element_present(locator=self._text_2, locator_type="xpath")
-    #     return result
-    #
-    # def verify_question_three(self):
-    #     self.wait_for_element(locator=self._text_3, locator_type="xpath", timeout=5, pollFrequency=1)
-    #     result = self.is_element_present(locator=self._text_3, locator_type="xpath")
-    #     return result
-    #
-    # def verify_question_four(self):
-    #     self.wait_for_element(locator=self._text_4, locator_type="xpath", timeout=5, pollFrequency=1)
-    #     result = self.is_element_present(locator=self._text_4, locator_type="xpath")
-    #     return result
-    #
-    # def verify_question_five(self):
-    #     self.wait_for_element(locator=self._text_5, locator_type="xpath", timeout=5, pollFrequency=1)
-    #     result = self.is_element_present(locator=self._text_5, locator_type="xpath")
-    #     return result
-    #
-    # def verify_question_six(self):
-    #     self.wait_for_element(locator=self._text_6, locator_type="xpath", timeout=5, pollFrequency=1)
-    #     result = self.is_element_present(locator=self._text_6, locator_type="xpath")
-    #     return result
-    #
-    # def verify_question_seven(self):
-    #     self.wait_for_element(locator=self._text_7, locator_type="xpath", timeout=5, pollFrequency=1)
-    #     result = self.is_element_present(locator=self._text_7, locator_type="xpath")
-    #     return result
-    #
-    # def verify_question_eight(self):
-    #     self.wait_for_element(locator=self._text_8, locator_type="xpath", timeout=5, pollFrequency=1)
-    #     result = self.is_element_present(locator=self._text_8, locator_type="xpath")
-    #     return result
-    #
-    # def verify_question_nine(self):
-    #     self.wait_for_element(locator=self._text_9, locator_type="xpath", timeout=5, pollFrequency=1)
-    #     result = self.is_element_present(locator=self._text_9, locator_type="xpath")
-    #     return result
-    #
-    # def verify_question_ten(self):
-    #     self.wait_for_element(locator=self._text_10, locator_type="xpath", timeout=5, pollFrequency=1)
-    #     result = self.is_element_present(locator=self._text_10, locator_type="xpath")
-    #     return result
-
     # verification of question by question type and text/title
     def verify_question_one(self):
-        self.wait_for_element(locator=self._text_1, locator_type="xpath", timeout=5, pollFrequency=1)
-        result1 = self.is_element_present(locator=self._text_1, locator_type="xpath")
+        result = None
         self.element_click(self._text_1, locator_type="xpath")
-        self.wait_for_element(locator=self._text_1_type, locator_type="xpath", timeout=5, pollFrequency=1)
-        result2 = self.is_element_present(locator=self._text_1_type, locator_type="xpath")
-        results = [result1, result2]
-        self.log.info(results)
+        result = self.is_element_present(locator=self._text_1_type, locator_type="xpath")
         SurveyQuestionPage.save(self)
-        return results
+        return result
 
     def verify_question_two(self):
-        self.wait_for_element(locator=self._text_2, locator_type="xpath", timeout=5, pollFrequency=1)
-        result1 = self.is_element_present(locator=self._text_2, locator_type="xpath")
+        result = None
         self.element_click(self._text_2, locator_type="xpath")
-        self.wait_for_element(locator=self._text_2_type, locator_type="xpath", timeout=5, pollFrequency=1)
-        result2 = self.is_element_present(locator=self._text_2_type, locator_type="xpath")
-        results = [result1, result2]
-        if (result1 and result2):
-            return results
+        type = self.is_element_present(locator=self._text_2_type, locator_type="xpath")
+        if type:
+            result = self.is_element_present(locator=self._question_two_select_type,locator_type="xpath")
+        else:
+           result = False
+        SurveyQuestionPage.save(self)
+        return result
 
     def verify_question_three(self):
-        self.wait_for_element(locator=self._text_3, locator_type="xpath", timeout=5, pollFrequency=1)
-        result1 = self.is_element_present(locator=self._text_3, locator_type="xpath")
+        result = None
         self.element_click(self._text_3, locator_type="xpath")
-        self.wait_for_element(locator=self._text_3_type, locator_type="xpath", timeout=5, pollFrequency=1)
-        result2 = self.is_element_present(locator=self._text_3_type, locator_type="xpath")
-        results = [result1, result2]
-        if (result1 and result2):
-            return results
+        result = self.is_element_present(locator=self._text_3_type, locator_type="xpath")
+        SurveyQuestionPage.save(self)
+        return result
 
     def verify_question_four(self):
-        self.wait_for_element(locator=self._text_4, locator_type="xpath", timeout=5, pollFrequency=1)
-        result1 = self.is_element_present(locator=self._text_4, locator_type="xpath")
+        result = None
         self.element_click(self._text_4, locator_type="xpath")
-        self.wait_for_element(locator=self._text_4_type, locator_type="xpath", timeout=5, pollFrequency=1)
-        result2 = self.is_element_present(locator=self._text_4_type, locator_type="xpath")
-        results = [result1, result2]
-        if (result1 and result2):
-            return results
-
+        result = self.is_element_present(locator=self._text_4_type, locator_type="xpath")
+        SurveyQuestionPage.save(self)
+        return result
 
     def verify_question_five(self):
-        self.wait_for_element(locator=self._text_5, locator_type="xpath", timeout=5, pollFrequency=1)
-        result1 = self.is_element_present(locator=self._text_5, locator_type="xpath")
+        result = None
         self.element_click(self._text_5, locator_type="xpath")
-        self.wait_for_element(locator=self._text_5_type, locator_type="xpath", timeout=5, pollFrequency=1)
-        result2 = self.is_element_present(locator=self._text_5_type, locator_type="xpath")
-        results = [result1, result2]
-        if (result1 and result2):
-            return results
+        type = self.is_element_present(locator=self._text_5_type, locator_type="xpath")
+        if type:
+            result = self.is_element_present(locator=self._question_yes_no_select_type,locator_type="xpath")
+            return result
+        else:
+            return False
+        SurveyQuestionPage.save(self)
+        return result
 
     def verify_question_six(self):
-        self.wait_for_element(locator=self._text_6, locator_type="xpath", timeout=5, pollFrequency=1)
-        result1 = self.is_element_present(locator=self._text_6, locator_type="xpath")
+        result = None
+        self.wait_for_element(locator=self._text_6,locator_type="xpath")
         self.element_click(self._text_6, locator_type="xpath")
-        self.wait_for_element(locator=self._text_6_type, locator_type="xpath", timeout=5, pollFrequency=1)
-        result2 = self.is_element_present(locator=self._text_6_type, locator_type="xpath")
-        results = [result1, result2]
-        if (result1 and result2):
-            return results
+        type = self.is_element_present(locator=self._text_6_type, locator_type="xpath")
+        if type:
+            result1 = self.is_element_present(locator=self._check_box1, locator_type="xpath")
+            result2 = self.is_element_present(locator=self._check_box2, locator_type="xpath")
+            result3 = self.is_element_present(locator=self._check_box3, locator_type="xpath")
+            result4 = self.is_element_present(locator=self._check_box4, locator_type="xpath")
+            result5 = self.is_element_present(locator=self._check_box5, locator_type="xpath")
+            if(result1 and result2 and result3 and result4 and result5):
+                result = True
+        else:
+            result = False
+        SurveyQuestionPage.save(self)
+        return result
 
     def verify_question_seven(self):
-        self.wait_for_element(locator=self._text_7, locator_type="xpath", timeout=5, pollFrequency=1)
-        result1 = self.is_element_present(locator=self._text_7, locator_type="xpath")
+        result = None
         self.element_click(self._text_7, locator_type="xpath")
-        self.wait_for_element(locator=self._text_7_type, locator_type="xpath", timeout=5, pollFrequency=1)
-        result2 = self.is_element_present(locator=self._text_7_type, locator_type="xpath")
-        results = [result1, result2]
-        if (result1 and result2):
-            return results
+        type = self.is_element_present(locator=self._text_7_type, locator_type="xpath")
+        if type:
+            result1 = self.is_element_present(locator=self._row_1, locator_type="xpath")
+            result2 = self.is_element_present(locator=self._row_2, locator_type="xpath")
+            result3 = self.is_element_present(locator=self._row_3, locator_type="xpath")
+            result4 = self.is_element_present(locator=self._column_1, locator_type="xpath")
+            result5 = self.is_element_present(locator=self._column_2, locator_type="xpath")
+            result6 = self.is_element_present(locator=self._column_3, locator_type="xpath")
+            result7 = self.is_element_present(locator=self._column_4, locator_type="xpath")
+            if(result1 and result2 and result3 and result4 and result5 and result6 and result7):
+                result = True
+        else:
+            result = False
+        SurveyQuestionPage.save(self)
+        return result
 
     def verify_question_eight(self):
-        self.wait_for_element(locator=self._text_8, locator_type="xpath", timeout=5, pollFrequency=1)
-        result1 = self.is_element_present(locator=self._text_8, locator_type="xpath")
+        result = None
         self.element_click(self._text_2, locator_type="xpath")
-        self.wait_for_element(locator=self._text_8_type, locator_type="xpath", timeout=5, pollFrequency=1)
-        result2 = self.is_element_present(locator=self._text_8_type, locator_type="xpath")
-        results = [result1, result2]
-        if (result1 and result2):
-            return results
+        type = self.is_element_present(locator=self._text_8_type, locator_type="xpath")
+        if type:
+            result1 = self.is_element_present(locator=self._first_texbox, locator_type="xpath")
+            result2 = self.is_element_present(locator=self._second_texbox, locator_type="xpath")
+            result3 = self.is_element_present(locator=self._third_texbox, locator_type="xpath")
+            if(result1 and result2 and result3):
+                result = True
+        else:
+            result = False
+        SurveyQuestionPage.save(self)
+        return result
 
     def verify_question_nine(self):
-        self.wait_for_element(locator=self._text_9, locator_type="xpath", timeout=5, pollFrequency=1)
-        result1 = self.is_element_present(locator=self._text_9, locator_type="xpath")
+        result = None
         self.element_click(self._text_9, locator_type="xpath")
-        self.wait_for_element(locator=self._text_9_type, locator_type="xpath", timeout=5, pollFrequency=1)
-        result2 = self.is_element_present(locator=self._text_9_type, locator_type="xpath")
-        results = [result1, result2]
-        if (result1 and result2):
-            return results
+        type = self.is_element_present(locator=self._text_9_type, locator_type="xpath")
+        if type:
+            result = self.is_element_present(locator=self._question_yes_no_select_type,locator_type="xpath")
+            return result
+        else:
+            return False
+        SurveyQuestionPage.save(self)
+        return result
 
     def verify_question_ten(self):
-        self.wait_for_element(locator=self._text_10, locator_type="xpath", timeout=5, pollFrequency=1)
-        result1 = self.is_element_present(locator=self._text_10, locator_type="xpath")
+        result = None
         self.element_click(self._text_10, locator_type="xpath")
-        self.wait_for_element(locator=self._text_10_type, locator_type="xpath", timeout=5, pollFrequency=1)
-        result2 = self.is_element_present(locator=self._text_10_type, locator_type="xpath")
-        results = [result1, result2]
-        if (result1 and result2):
-            return results
+        result = self.is_element_present(locator=self._text_10_type, locator_type="xpath")
+        SurveyQuestionPage.save(self)
+        return result

@@ -1,6 +1,6 @@
 import pytest
 import unittest
-from pages.surveyquestions import SurveyQuestionPage
+from pages.survey_question import SurveyQuestionPage
 from utilities.sendkeysconfig import *
 from utilities.custom_logger import *
 import logging
@@ -54,7 +54,7 @@ class TestQuestion(unittest.TestCase):
         self.log.info("Result: " + str(result))
         assert result == True
 
-    @pytest.mark.run(order=6)
+    @pytest.mark.run(order=1)
     def test_question_6(self):
         self.log.info("test_question_6 started")
         self.survey_questions.add_question_six(question_no_6)
