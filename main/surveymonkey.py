@@ -1,16 +1,15 @@
-from base.browsersetup import DriverSet
+from base.browsersetup import Driver
 from pages.login_page import LoginPage
 from pages.createsurvey import CreateSurvey
 from pages.survey_operations import EditElements
 from pages.survey_question import SurveyQuestionPage
-from utilities.sendkeysconfig import *
-from pages.addquestionsbydragdrop import SurveyQuestion
+from utilities.test_data import *
 
 
 class SurveyMonkeyWebsite():
 
     def __init__(self):
-        web_driver = DriverSet()
+        web_driver = Driver()
         self.driver = web_driver.get_web_driver_instance()
 
     def get_survey(self):
@@ -20,15 +19,6 @@ class SurveyMonkeyWebsite():
         cs.create_survey(first_survey_title)
         edit_survey = EditElements(self.driver)
         edit_survey.survey_operations(new_survey_title, new_page_title)
-
-    #   added question by drag and drop
-    def get_survey_questions(self):
-        questions = SurveyQuestion(self.driver)
-        questions.add_question_1(question_no_1)
-        questions.add_question_2(question_no_2)
-        questions.add_question_5(question_no_5)
-        questions.add_question_9(question_no_9)
-        questions.add_question_10(question_no_10)
 
     def get_questions(self):
         survey_questions = SurveyQuestionPage(self.driver)
@@ -42,8 +32,8 @@ class SurveyMonkeyWebsite():
         survey_questions.add_question_eight(question_no_8)
         survey_questions.add_question_nine(question_no_9)
         survey_questions.add_question_ten(question_no_10)
-
+        self.driver.close()
 
 survey_monkey = SurveyMonkeyWebsite()
 survey_monkey.get_survey()
-survey_monkey.get_survey_questions()
+survey_monkey.get_questions()

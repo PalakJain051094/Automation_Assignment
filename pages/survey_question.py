@@ -1,6 +1,6 @@
 from base.base_page import BasePage
 import time
-from utilities.sendkeysconfig import*
+from utilities.test_data import*
 
 
 class SurveyQuestionPage(BasePage):
@@ -10,18 +10,21 @@ class SurveyQuestionPage(BasePage):
         self.driver = driver
 
     # Add questions in survey
+    _design = "//li[@title='Builder']"
     _question_title_box = "editTitle"
+    _editquestion_div = "editQuestion"
     _question_type = "changeQType"
     _save_question = "//div[@id='editQuestion']//section[@class='t1']//a[text()='SAVE']"
     _new_question = "//div[@id='livePreview']//a[text()='NEW QUESTION']"
-    _cancel="//div[@id='editQuestion']//section[@class='t1']//a[text()='CANCEL']"
+    _destination = "//div[@class='add-question-btn zero-state-hide ui-droppable']"
 
     # question 1
-    _question_first_type = "//ul[@class='add-q-menu-left']//a[text()='Single Textbox']"
+    _question_1_type = "//div[@id='builderQuestionContainer']//span[text()='Single Textbox']"
 
     # question 2
-    _question_two_and_nine_type = "//ul[@class='add-q-menu-left']//a[text()='Multiple Choice']"
+    _question_2_type = "//div[@id='builderQuestionContainer']//span[text()='Multiple Choice']"
     _question_two_select_type = "//option[contains(text(),'Always - Never')]"
+    _question_select_choice = "answerBankCategorySelect"
 
     # question 3
     _question_third_type = "//ul[@class='add-q-menu-right']//a[text()='Date / Time']"
@@ -31,7 +34,7 @@ class SurveyQuestionPage(BasePage):
     _question_four_type = "//ul[@class='add-q-menu-left']//a[text()='Star Rating']"
 
     # question 5
-    _question_five_type = "//ul[@class='add-q-menu-right']//a[text()='Dropdown']"
+    _question_five_type = "//div[@id='builderQuestionContainer']//span[text()='Dropdown']"
     _question_select_choice = "answerBankCategorySelect"
 
     # question 6
@@ -60,10 +63,10 @@ class SurveyQuestionPage(BasePage):
     _multiple_textbox_level_3 = "//section[2]/div[2]/div[2]/div[1]/div[1]/table[1]/tbody[1]/tr[5]/td[1]/div[1]/div[1]"
 
     # question 9
-    _question_yes_no_select_type = "//option[contains(text(),'Yes - No')]"
+    _question_nine_select_type = "//option[contains(text(),'Yes - No')]"
 
     # question 10
-    _question_ten_type = "//ul[@class='add-q-menu-left']//a[text()='Comment Box']"
+    _question_ten_type = "//div[@id='builderQuestionContainer']//span[text()='Comment Box']"
 
     #verify questions
     _text_1 = "//h4[@class='question-title-container']//span[text()='"+ question_no_1+"']"
@@ -115,13 +118,11 @@ class SurveyQuestionPage(BasePage):
         time.sleep(5)
         self.element_click(self._save_question,locator_type="xpath")
 
+    #method to go on next question
     def next(self):
         self.wait_for_element(locator=self._new_question, locator_type="xpath", timeout=5, pollFrequency=1)
         time.sleep(5)
         self.element_click(self._new_question, locator_type="xpath")
-
-    def cancel(self):
-        self.element_click(self._cancel, locator_type="xpath")
 
     # method to get question type
     def get_question_type(self):
@@ -130,18 +131,20 @@ class SurveyQuestionPage(BasePage):
 
     # method to add 1st question
     def add_question_one(self,question_no_1=""):
+        self.element_click(self._design, locator_type="xpath")
+        self.web_scroll(direction="down")
+        self.drag_drop(self._question_1_type, self._destination, locator_type="xpath")
+        self.element_click(self._editquestion_div)
         self.send_keys(question_no_1, self._question_title_box)
-        SurveyQuestionPage.get_question_type(self)
-        self.element_click(self._question_first_type, locator_type="xpath")
         SurveyQuestionPage.save(self)
 
     # method to add 2nd question
     def add_question_two(self, question_no_2=""):
         SurveyQuestionPage.next(self)
+        self.element_click(self._design, locator_type="xpath")
+        self.drag_drop(self._question_2_type, self._destination, locator_type="xpath")
+        self.element_click(self._editquestion_div)
         self.send_keys(question_no_2, self._question_title_box)
-        SurveyQuestionPage.get_question_type(self)
-        self.wait_for_element(locator=self._question_two_and_nine_type, locator_type="xpath", pollFrequency=1)
-        self.element_click(self._question_two_and_nine_type, locator_type="xpath")
         self.wait_for_element(self._question_select_choice, pollFrequency=1)
         self.element_click(self._question_select_choice)
         self.wait_for_element(self._question_two_select_type, locator_type="xpath", pollFrequency=1)
@@ -169,13 +172,13 @@ class SurveyQuestionPage(BasePage):
     # method to add 5th question
     def add_question_five(self, question_no_5=""):
         SurveyQuestionPage.next(self)
+        self.element_click(self._design, locator_type="xpath")
+        self.drag_drop(self._question_five_type, self._destination, locator_type="xpath")
+        self.element_click(self._editquestion_div)
         self.send_keys(question_no_5, self._question_title_box)
-        SurveyQuestionPage.get_question_type(self)
-        self.wait_for_element(locator=self._question_five_type, locator_type="xpath", pollFrequency=1)
-        self.element_click(self._question_five_type, locator_type="xpath")
         self.element_click(self._question_select_choice)
-        self.wait_for_element(locator=self._question_yes_no_select_type, locator_type="xpath",pollFrequency=1)
-        self.element_click(self._question_yes_no_select_type,locator_type="xpath")
+        self.wait_for_element(locator=self._question_nine_select_type, locator_type="xpath", pollFrequency=1)
+        self.element_click(self._question_nine_select_type, locator_type="xpath")
         SurveyQuestionPage.save(self)
 
     # method to add 6th question
@@ -236,22 +239,24 @@ class SurveyQuestionPage(BasePage):
     # method to add 9th question
     def add_question_nine(self, question_no_9=""):
         SurveyQuestionPage.next(self)
+        self.element_click(self._design, locator_type="xpath")
+        self.drag_drop(self._question_2_type, self._destination, locator_type="xpath")
+        self.wait_for_element(self._question_title_box)
+        self.element_click(self._editquestion_div)
         self.send_keys(question_no_9, self._question_title_box)
-        SurveyQuestionPage.get_question_type(self)
-        self.wait_for_element(locator=self._question_two_and_nine_type, locator_type="xpath", pollFrequency=1)
-        self.element_click(self._question_two_and_nine_type, locator_type="xpath")
         self.wait_for_element(locator=self._question_select_choice, pollFrequency=1)
         self.element_click(self._question_select_choice)
-        self.wait_for_element(locator=self._question_yes_no_select_type, locator_type="xpath", pollFrequency=1)
-        self.element_click(self._question_yes_no_select_type, locator_type="xpath")
+        self.wait_for_element(locator=self._question_nine_select_type, locator_type="xpath", pollFrequency=1)
+        self.element_click(self._question_nine_select_type, locator_type="xpath")
         SurveyQuestionPage.save(self)
 
     # method to add 10th question
     def add_question_ten(self, question_no_10=""):
         SurveyQuestionPage.next(self)
+        self.element_click(self._design, locator_type="xpath")
+        self.drag_drop(self._question_ten_type, self._destination, locator_type="xpath")
+        self.element_click(self._editquestion_div)
         self.send_keys(question_no_10, self._question_title_box)
-        SurveyQuestionPage.get_question_type(self)
-        self.element_click(self._question_ten_type, locator_type="xpath")
         SurveyQuestionPage.save(self)
 
     # verification of question by question type and text/title
@@ -356,7 +361,7 @@ class SurveyQuestionPage(BasePage):
         self.element_click(self._text_9, locator_type="xpath")
         type = self.is_element_present(locator=self._text_9_type, locator_type="xpath")
         if type:
-            result = self.is_element_present(locator=self._question_yes_no_select_type,locator_type="xpath")
+            result = self.is_element_present(locator=self._question_yes_no_select_type, locator_type="xpath")
             return result
         else:
             return False

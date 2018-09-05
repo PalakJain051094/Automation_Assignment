@@ -1,8 +1,7 @@
-from pages.login_page import  LoginPage
+from pages.login_page import LoginPage
 import unittest
 import pytest
 import utilities.custom_logger as cl
-from utilities.sendkeysconfig import *
 import logging
 from ddt import ddt,data, unpack
 from utilities.read_data import getCSVData
@@ -18,7 +17,7 @@ class TestLogin(unittest.TestCase):
         self.lp = LoginPage(get_driver)
 
     @pytest.mark.run(order=1)
-    @data(*getCSVData("D:/Python_workspace/AutomationAss/logindata.csv"))
+    @data(*getCSVData("D:/Python_workspace/Automation_Assignment/logindata.csv"))
     @unpack
     def test_validLogin(self,username, pass_word):
         self.log.info("test_validLogin started")
@@ -26,3 +25,4 @@ class TestLogin(unittest.TestCase):
         self.lp.login(username, pass_word)
         result = self.lp.verify_login_successful()
         assert result == True
+
