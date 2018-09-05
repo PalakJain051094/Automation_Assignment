@@ -4,6 +4,7 @@ from testcases.test_createsurvey import TestCreateSurvey
 from testcases.test_surveyoperation import TestSurveyOperation
 from testcases.test_question import TestQuestion
 
+
 # Get all tests from the test classes
 class Test_Suite(unittest.TestCase):
 
@@ -17,5 +18,3 @@ class Test_Suite(unittest.TestCase):
         self.suite.addTests([tc1, tc2, tc3, tc4])
         runner = unittest.TextTestRunner()
         runner.run(self.suite)
-
-

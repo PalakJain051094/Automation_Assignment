@@ -1,15 +1,15 @@
 import pytest
-from utilities.sendkeysconfig import *
-from base.browsersetup import DriverSet
+from utilities.test_data import *
+from base.browsersetup import Driver
 from pages.login_page import LoginPage
 from pages.createsurvey import CreateSurvey
 from pages.survey_operations import EditElements
-from pages.surveyquestions import SurveyQuestionPage
+from pages.survey_question import SurveyQuestionPage
 
 
 @pytest.fixture(scope='module')
 def get_driver():
-    web_driver = DriverSet()
+    web_driver = Driver()
     driver = web_driver.get_web_driver_instance()
     return driver
 

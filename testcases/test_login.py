@@ -2,8 +2,9 @@ from pages.login_page import  LoginPage
 import unittest
 import pytest
 import utilities.custom_logger as cl
-from utilities.sendkeysconfig import *
+from utilities.test_data import *
 import logging
+
 
 @pytest.mark.usefixtures("get_driver")
 class TestLogin(unittest.TestCase):

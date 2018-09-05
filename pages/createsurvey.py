@@ -1,5 +1,6 @@
 from base.base_page import BasePage
 
+
 class CreateSurvey(BasePage):
 
     def __init__(self, driver):
@@ -59,7 +60,7 @@ class CreateSurvey(BasePage):
         self.element_click(self._popup_Remove, locator_type="xpath")
 
     # method to create survey
-    def create_survey(self,first_survey_title=""):
+    def create_survey(self, first_survey_title=""):
         CreateSurvey.click_survey_link(self)
         if(self.is_element_present(locator=self._from_scratch)):
             CreateSurvey.click_from_scratch_link(self)
@@ -67,10 +68,10 @@ class CreateSurvey(BasePage):
         CreateSurvey.send_survey_category(self)
         CreateSurvey.select_option(self)
         CreateSurvey.save_survey(self)
-        if(self.is_element_present(locator=self._popup_Remove,locator_type="xpath")):
+        if(self.is_element_present(locator=self._popup_Remove, locator_type="xpath")):
             CreateSurvey.handle_remove_popuup(self)
 
     def verify_createsurvey_successful(self):
         self.wait_for_element(locator=self._design_survey,locator_type="xpath")
-        result = self.is_element_present(locator=self._design_survey,locator_type="xpath")
+        result = self.is_element_present(locator=self._design_survey, locator_type="xpath")
         return result

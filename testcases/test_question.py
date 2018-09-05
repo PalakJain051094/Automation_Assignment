@@ -1,7 +1,7 @@
 import pytest
 import unittest
 from pages.survey_question import SurveyQuestionPage
-from utilities.sendkeysconfig import *
+from utilities.test_data import *
 from utilities.custom_logger import *
 import logging
 
