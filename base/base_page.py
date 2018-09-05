@@ -7,8 +7,6 @@ It implements methods which are common to all the pages throughout the applicati
 This class needs to be inherited by all the page classes
 This should not be used by creating object instances
 
-Example:
-    Class LoginPage(BasePage)
 """
 from base.browsersetup import Driver
 
