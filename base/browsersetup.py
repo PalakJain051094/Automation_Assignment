@@ -7,7 +7,6 @@ For example: driver.sendkeys()
 """
 from selenium import webdriver
 import os
-from base.browserconfig import *
 from selenium.webdriver.common.by import By
 from traceback import print_stack
 from selenium.webdriver.support.ui import WebDriverWait
@@ -15,6 +14,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import *
 from utilities.custom_logger import*
 from selenium.webdriver.common.action_chains import ActionChains
+from  configreader.yaml_reader import YamlConverter
 
 
 class Driver():
@@ -31,7 +31,8 @@ class Driver():
         * :param self: current instance of class
 
         """
-        browser_type = browser.upper()
+        self.yaml_parser = YamlConverter(file_name="browser_setup.yaml")
+
 
     def get_web_driver_instance(self):
         """
@@ -45,12 +46,12 @@ class Driver():
            - firefox driver -- if browser is FIREFOX
 
         """
-        browser_type = browser.upper()
-        if (browser_type == "CHROME"):
+        browser_type =  self.yaml_parser.get_browser()
+        if (browser_type == "chrome"):
             return Driver.set_chrome_driver(self)
-        elif (browser_type == "IE"):
+        elif (browser_type == "ie"):
             return Driver.set_fire_fox_driver(self)
-        elif (browser_type == "FIREFOX"):
+        elif (browser_type == "firefox"):
             return Driver.set_internet_explorer(self)
         else:
             print("Not a Valid browser Please enter 'chrome','ie' or 'firefox' only ")
@@ -69,6 +70,7 @@ class Driver():
         self.driver = webdriver.Chrome(driverlocation)
         self.driver.implicitly_wait(20)
         self.driver.maximize_window()
+        url=self.yaml_parser.get_url()
         self.driver.get(url)
         return self.driver
 
@@ -83,6 +85,7 @@ class Driver():
         self.driver = webdriver.Firefox()
         self.driver.implicitly_wait(20)
         self.driver.maximize_window()
+        url = self.yaml_parser.get_url()
         self.driver.get(url)
         return self.driver
 
@@ -100,8 +103,32 @@ class Driver():
         self.driver=webdriver.Ie(driverlocation)
         self.driver.implicitly_wait(20)
         self.driver.maximize_window()
+        url = self.yaml_parser.get_url()
         self.driver.get(url)
         return self.driver
+
+    def get_username(self):
+        """
+
+        This method get username
+
+        * :param self: current instance of class
+        * :return: username
+
+        """
+        username = self.yaml_parser.get_username()
+        return username
+
+    def get_password(self):
+        """
+        This method get username
+
+        * :param self: current instance of class
+        * :return: pass_word
+        """
+        pass_word = self.yaml_parser.get_password()
+        return pass_word
+
 
     def get_by_type(self, locator_type):
         """

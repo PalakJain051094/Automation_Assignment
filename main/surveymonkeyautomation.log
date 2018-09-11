@@ -1,290 +1,132 @@
-09/10/2018 11:37:08 AM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
-09/10/2018 11:37:13 AM - Driver - INFO: Clicked on element with locator: //a[text()='LOG IN'] locatorType: xpath
-09/10/2018 11:37:13 AM - Driver - INFO: Element found with locator: username and  locatorType: id
-09/10/2018 11:37:13 AM - Driver - INFO: Clear field with locator: username locatorType: id
-09/10/2018 11:37:13 AM - Driver - INFO: Element found with locator: username and  locatorType: id
-09/10/2018 11:37:13 AM - Driver - INFO: Sent data on element with locator: username locatorType: id
-09/10/2018 11:37:13 AM - Driver - INFO: Element found with locator: password and  locatorType: id
-09/10/2018 11:37:13 AM - Driver - INFO: Clear field with locator: password locatorType: id
-09/10/2018 11:37:13 AM - Driver - INFO: Element found with locator: password and  locatorType: id
-09/10/2018 11:37:13 AM - Driver - INFO: Sent data on element with locator: password locatorType: id
-09/10/2018 11:37:13 AM - Driver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
-09/10/2018 11:37:21 AM - Driver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
-09/10/2018 11:37:21 AM - Driver - INFO: Element found with locator: //a[text()='CREATE SURVEY'] and  locatorType: xpath
-09/10/2018 11:37:26 AM - Driver - INFO: Clicked on element with locator: //a[text()='CREATE SURVEY'] locatorType: xpath
-09/10/2018 11:37:26 AM - Driver - INFO: Element found with locator: scratch and  locatorType: id
-09/10/2018 11:37:26 AM - Driver - INFO: Element present with locator: scratch locatorType: id
-09/10/2018 11:37:26 AM - Driver - INFO: Element found with locator: scratch and  locatorType: id
-09/10/2018 11:37:26 AM - Driver - INFO: Clicked on element with locator: scratch locatorType: id
-09/10/2018 11:37:26 AM - Driver - INFO: Element found with locator: surveyTitle and  locatorType: id
-09/10/2018 11:37:26 AM - Driver - INFO: Sent data on element with locator: surveyTitle locatorType: id
-09/10/2018 11:37:26 AM - Driver - INFO: Element found with locator: //div[text()='Survey category'] and  locatorType: xpath
-09/10/2018 11:37:26 AM - Driver - INFO: Clicked on element with locator: //div[text()='Survey category'] locatorType: xpath
-09/10/2018 11:37:26 AM - Driver - INFO: Element found with locator: react-select-2--option-12 and  locatorType: id
-09/10/2018 11:37:26 AM - Driver - INFO: Clicked on element with locator: react-select-2--option-12 locatorType: id
-09/10/2018 11:37:26 AM - Driver - INFO: Element found with locator: //button[text()='CREATE SURVEY'] and  locatorType: xpath
-09/10/2018 11:37:27 AM - Driver - INFO: Clicked on element with locator: //button[text()='CREATE SURVEY'] locatorType: xpath
-09/10/2018 11:37:47 AM - Driver - INFO: Element not found with locator: //div[@class='dialog-btn-bar']//a[contains(text(),'REMOVE')] and  locatorType: xpath
-09/10/2018 11:37:47 AM - Driver - INFO: Element not present with locator: //div[@class='dialog-btn-bar']//a[contains(text(),'REMOVE')] locatorType: xpath
-09/10/2018 11:37:47 AM - Driver - INFO: Waiting for maximum :: 60 :: seconds for element to be clickable
-09/10/2018 11:37:47 AM - Driver - INFO: Element appeared on the web page
-09/10/2018 11:37:47 AM - Driver - INFO: Element found with locator: //table[@role='presentation']//span[@class='title-text'] and  locatorType: xpath
-09/10/2018 11:37:47 AM - Driver - INFO: Clicked on element with locator: //table[@role='presentation']//span[@class='title-text'] locatorType: xpath
-09/10/2018 11:37:47 AM - Driver - INFO: Waiting for maximum :: 60 :: seconds for element to be clickable
-09/10/2018 11:38:50 AM - Driver - INFO: Element not appeared on the web page
-09/10/2018 11:38:50 AM - Driver - INFO: Element found with locator: surveyTitle and  locatorType: id
-09/10/2018 11:38:50 AM - Driver - INFO: Clear field with locator: surveyTitle locatorType: id
-09/10/2018 11:38:50 AM - Driver - INFO: Element found with locator: surveyTitle and  locatorType: id
-09/10/2018 11:38:50 AM - Driver - INFO: Sent data on element with locator: surveyTitle locatorType: id
-09/10/2018 11:38:50 AM - Driver - INFO: Waiting for maximum :: 60 :: seconds for element to be clickable
-09/10/2018 11:38:50 AM - Driver - INFO: Element appeared on the web page
-09/10/2018 11:38:50 AM - Driver - INFO: Element found with locator: //form[@id='surveyTitleForm']//a[text()='SAVE'] and  locatorType: xpath
-09/10/2018 11:38:50 AM - Driver - INFO: Clicked on element with locator: //form[@id='surveyTitleForm']//a[text()='SAVE'] locatorType: xpath
-09/10/2018 11:38:55 AM - Driver - INFO: Element found with locator: //span[text()='PAGE TITLE'] and  locatorType: xpath
-09/10/2018 11:38:56 AM - Driver - INFO: Clicked on element with locator: //span[text()='PAGE TITLE'] locatorType: xpath
-09/10/2018 11:38:56 AM - Driver - INFO: Element found with locator: pageTitle and  locatorType: id
-09/10/2018 11:38:56 AM - Driver - INFO: Sent data on element with locator: pageTitle locatorType: id
-09/10/2018 11:38:56 AM - Driver - INFO: Element found with locator:  //form[@id='pageTitleForm']//a[text()='SAVE']  and  locatorType: xpath
-09/10/2018 11:38:56 AM - Driver - INFO: Clicked on element with locator:  //form[@id='pageTitleForm']//a[text()='SAVE']  locatorType: xpath
-09/10/2018 11:38:56 AM - Driver - INFO: Element found with locator: //li[@title='Builder'] and  locatorType: xpath
-09/10/2018 11:38:56 AM - Driver - INFO: Clicked on element with locator: //li[@title='Builder'] locatorType: xpath
-09/10/2018 11:38:56 AM - Driver - INFO: Element found with locator: //div[@id='builderQuestionContainer']//span[text()='Single Textbox'] and  locatorType: xpath
-09/10/2018 11:38:56 AM - Driver - INFO: source_element is found //div[@id='builderQuestionContainer']//span[text()='Single Textbox']with locator typexpath
-09/10/2018 11:38:57 AM - Driver - INFO: Element found with locator: //div[@class='add-question-btn zero-state-hide ui-droppable'] and  locatorType: xpath
-09/10/2018 11:38:57 AM - Driver - INFO: destination element is found //div[@class='add-question-btn zero-state-hide ui-droppable']with locator typexpath
-09/10/2018 11:38:57 AM - Driver - INFO: <selenium.webdriver.common.action_chains.ActionChains object at 0x0000019892644C50>
-09/10/2018 11:38:57 AM - Driver - INFO: drag and drop done
-09/10/2018 11:38:58 AM - Driver - INFO: Element found with locator: editQuestion and  locatorType: id
-09/10/2018 11:38:58 AM - Driver - INFO: Clicked on element with locator: editQuestion locatorType: id
-09/10/2018 11:38:58 AM - Driver - INFO: Element found with locator: editTitle and  locatorType: id
-09/10/2018 11:38:58 AM - Driver - INFO: Sent data on element with locator: editTitle locatorType: id
-09/10/2018 11:39:03 AM - Driver - INFO: Waiting for maximum :: 5 :: seconds for element to be clickable
-09/10/2018 11:39:03 AM - Driver - INFO: Element appeared on the web page
-09/10/2018 11:39:08 AM - Driver - INFO: Element found with locator: //div[@id='editQuestion']//section[@class='t1']//a[text()='SAVE'] and  locatorType: xpath
-09/10/2018 11:39:08 AM - Driver - INFO: Clicked on element with locator: //div[@id='editQuestion']//section[@class='t1']//a[text()='SAVE'] locatorType: xpath
-09/10/2018 11:39:08 AM - Driver - INFO: Waiting for maximum :: 5 :: seconds for element to be clickable
-09/10/2018 11:39:10 AM - Driver - INFO: Element appeared on the web page
-09/10/2018 11:39:15 AM - Driver - INFO: Element found with locator: //div[@id='livePreview']//a[text()='NEW QUESTION'] and  locatorType: xpath
-09/10/2018 11:39:15 AM - Driver - INFO: Clicked on element with locator: //div[@id='livePreview']//a[text()='NEW QUESTION'] locatorType: xpath
-09/10/2018 11:39:15 AM - Driver - INFO: Element found with locator: //li[@title='Builder'] and  locatorType: xpath
-09/10/2018 11:39:15 AM - Driver - INFO: Clicked on element with locator: //li[@title='Builder'] locatorType: xpath
-09/10/2018 11:39:15 AM - Driver - INFO: Element found with locator: //div[@id='builderQuestionContainer']//span[text()='Multiple Choice'] and  locatorType: xpath
-09/10/2018 11:39:15 AM - Driver - INFO: source_element is found //div[@id='builderQuestionContainer']//span[text()='Multiple Choice']with locator typexpath
-09/10/2018 11:39:15 AM - Driver - INFO: Element found with locator: //div[@class='add-question-btn zero-state-hide ui-droppable'] and  locatorType: xpath
-09/10/2018 11:39:15 AM - Driver - INFO: destination element is found //div[@class='add-question-btn zero-state-hide ui-droppable']with locator typexpath
-09/10/2018 11:39:15 AM - Driver - INFO: <selenium.webdriver.common.action_chains.ActionChains object at 0x0000019891F6B080>
-09/10/2018 11:39:15 AM - Driver - INFO: drag and drop done
-09/10/2018 11:39:16 AM - Driver - INFO: Element found with locator: editQuestion and  locatorType: id
-09/10/2018 11:39:16 AM - Driver - INFO: Clicked on element with locator: editQuestion locatorType: id
-09/10/2018 11:39:16 AM - Driver - INFO: Element found with locator: editTitle and  locatorType: id
-09/10/2018 11:39:16 AM - Driver - INFO: Sent data on element with locator: editTitle locatorType: id
-09/10/2018 11:39:16 AM - Driver - INFO: Waiting for maximum :: 60 :: seconds for element to be clickable
-09/10/2018 11:39:18 AM - Driver - INFO: Element appeared on the web page
-09/10/2018 11:39:18 AM - Driver - INFO: Element found with locator: answerBankCategorySelect and  locatorType: id
-09/10/2018 11:39:18 AM - Driver - INFO: Clicked on element with locator: answerBankCategorySelect locatorType: id
-09/10/2018 11:39:18 AM - Driver - INFO: Waiting for maximum :: 60 :: seconds for element to be clickable
-09/10/2018 11:39:18 AM - Driver - INFO: Element appeared on the web page
-09/10/2018 11:39:18 AM - Driver - INFO: Element found with locator: //option[contains(text(),'Always - Never')] and  locatorType: xpath
-09/10/2018 11:39:19 AM - Driver - INFO: Clicked on element with locator: //option[contains(text(),'Always - Never')] locatorType: xpath
-09/10/2018 11:39:24 AM - Driver - INFO: Waiting for maximum :: 5 :: seconds for element to be clickable
-09/10/2018 11:39:24 AM - Driver - INFO: Element appeared on the web page
-09/10/2018 11:39:29 AM - Driver - INFO: Element found with locator: //div[@id='editQuestion']//section[@class='t1']//a[text()='SAVE'] and  locatorType: xpath
-09/10/2018 11:39:29 AM - Driver - INFO: Clicked on element with locator: //div[@id='editQuestion']//section[@class='t1']//a[text()='SAVE'] locatorType: xpath
-09/10/2018 11:39:29 AM - Driver - INFO: Waiting for maximum :: 5 :: seconds for element to be clickable
-09/10/2018 11:39:29 AM - Driver - INFO: Element appeared on the web page
-09/10/2018 11:39:34 AM - Driver - INFO: Element found with locator: //div[@id='livePreview']//a[text()='NEW QUESTION'] and  locatorType: xpath
-09/10/2018 11:39:34 AM - Driver - INFO: Clicked on element with locator: //div[@id='livePreview']//a[text()='NEW QUESTION'] locatorType: xpath
-09/10/2018 11:39:35 AM - Driver - INFO: Element found with locator: editTitle and  locatorType: id
-09/10/2018 11:39:35 AM - Driver - INFO: Sent data on element with locator: editTitle locatorType: id
-09/10/2018 11:39:35 AM - Driver - INFO: Waiting for maximum :: 60 :: seconds for element to be clickable
-09/10/2018 11:39:35 AM - Driver - INFO: Element appeared on the web page
-09/10/2018 11:39:35 AM - Driver - INFO: Element found with locator: changeQType and  locatorType: id
-09/10/2018 11:39:36 AM - Driver - INFO: Clicked on element with locator: changeQType locatorType: id
-09/10/2018 11:39:36 AM - Driver - INFO: Element found with locator: //ul[@class='add-q-menu-right']//a[text()='Date / Time'] and  locatorType: xpath
-09/10/2018 11:39:36 AM - Driver - INFO: Clicked on element with locator: //ul[@class='add-q-menu-right']//a[text()='Date / Time'] locatorType: xpath
-09/10/2018 11:39:36 AM - Driver - INFO: Element found with locator: //table[@id='rows']//label[text()='Time Info'] and  locatorType: xpath
-09/10/2018 11:39:36 AM - Driver - INFO: Clicked on element with locator: //table[@id='rows']//label[text()='Time Info'] locatorType: xpath
-09/10/2018 11:39:41 AM - Driver - INFO: Waiting for maximum :: 5 :: seconds for element to be clickable
-09/10/2018 11:39:41 AM - Driver - INFO: Element appeared on the web page
-09/10/2018 11:39:46 AM - Driver - INFO: Element found with locator: //div[@id='editQuestion']//section[@class='t1']//a[text()='SAVE'] and  locatorType: xpath
-09/10/2018 11:39:46 AM - Driver - INFO: Clicked on element with locator: //div[@id='editQuestion']//section[@class='t1']//a[text()='SAVE'] locatorType: xpath
-09/10/2018 11:39:46 AM - Driver - INFO: Waiting for maximum :: 5 :: seconds for element to be clickable
-09/10/2018 11:39:46 AM - Driver - INFO: Element appeared on the web page
-09/10/2018 11:39:51 AM - Driver - INFO: Element found with locator: //div[@id='livePreview']//a[text()='NEW QUESTION'] and  locatorType: xpath
-09/10/2018 11:39:51 AM - Driver - INFO: Clicked on element with locator: //div[@id='livePreview']//a[text()='NEW QUESTION'] locatorType: xpath
-09/10/2018 11:39:52 AM - Driver - INFO: Element found with locator: editTitle and  locatorType: id
-09/10/2018 11:39:53 AM - Driver - INFO: Sent data on element with locator: editTitle locatorType: id
-09/10/2018 11:39:53 AM - Driver - INFO: Waiting for maximum :: 60 :: seconds for element to be clickable
-09/10/2018 11:39:53 AM - Driver - INFO: Element appeared on the web page
-09/10/2018 11:39:53 AM - Driver - INFO: Element found with locator: changeQType and  locatorType: id
-09/10/2018 11:39:53 AM - Driver - INFO: Clicked on element with locator: changeQType locatorType: id
-09/10/2018 11:39:53 AM - Driver - INFO: Waiting for maximum :: 60 :: seconds for element to be clickable
-09/10/2018 11:39:53 AM - Driver - INFO: Element appeared on the web page
-09/10/2018 11:39:53 AM - Driver - INFO: Element found with locator: //ul[@class='add-q-menu-left']//a[text()='Star Rating'] and  locatorType: xpath
-09/10/2018 11:39:53 AM - Driver - INFO: Clicked on element with locator: //ul[@class='add-q-menu-left']//a[text()='Star Rating'] locatorType: xpath
-09/10/2018 11:39:58 AM - Driver - INFO: Waiting for maximum :: 5 :: seconds for element to be clickable
-09/10/2018 11:40:04 AM - Driver - INFO: Element not appeared on the web page
-09/10/2018 11:40:15 AM - Driver - INFO: Element not found with locator: //div[@id='editQuestion']//section[@class='t1']//a[text()='SAVE'] and  locatorType: xpath
-09/10/2018 11:40:15 AM - Driver - INFO: Cannot click on the element with locator: //div[@id='editQuestion']//section[@class='t1']//a[text()='SAVE'] locatorType: xpath
-09/10/2018 11:40:15 AM - Driver - INFO: Waiting for maximum :: 5 :: seconds for element to be clickable
-09/10/2018 11:40:21 AM - Driver - INFO: Element not appeared on the web page
-09/10/2018 11:40:32 AM - Driver - INFO: Element not found with locator: //div[@id='livePreview']//a[text()='NEW QUESTION'] and  locatorType: xpath
-09/10/2018 11:40:32 AM - Driver - INFO: Cannot click on the element with locator: //div[@id='livePreview']//a[text()='NEW QUESTION'] locatorType: xpath
-09/10/2018 11:40:38 AM - Driver - INFO: Element not found with locator: //li[@title='Builder'] and  locatorType: xpath
-09/10/2018 11:40:38 AM - Driver - INFO: Cannot click on the element with locator: //li[@title='Builder'] locatorType: xpath
-09/10/2018 11:40:44 AM - Driver - INFO: Element not found with locator: //div[@id='builderQuestionContainer']//span[text()='Dropdown'] and  locatorType: xpath
-09/10/2018 11:40:44 AM - Driver - INFO: source_element is found //div[@id='builderQuestionContainer']//span[text()='Dropdown']with locator typexpath
-09/10/2018 11:40:50 AM - Driver - INFO: Element not found with locator: //div[@class='add-question-btn zero-state-hide ui-droppable'] and  locatorType: xpath
-09/10/2018 11:40:50 AM - Driver - INFO: destination element is found //div[@class='add-question-btn zero-state-hide ui-droppable']with locator typexpath
-09/10/2018 11:40:50 AM - Driver - INFO: <selenium.webdriver.common.action_chains.ActionChains object at 0x0000019892750CC0>
-09/10/2018 11:40:56 AM - Driver - INFO: Cannot perfrom drag nad drop //div[@id='builderQuestionContainer']//span[text()='Dropdown'] locatorType: xpath
-09/10/2018 11:41:02 AM - Driver - INFO: Element not found with locator: editQuestion and  locatorType: id
-09/10/2018 11:41:02 AM - Driver - INFO: Cannot click on the element with locator: editQuestion locatorType: id
-09/10/2018 11:41:08 AM - Driver - INFO: Element not found with locator: editTitle and  locatorType: id
-09/10/2018 11:41:08 AM - Driver - INFO: Cannot send data on the element with locator: editTitle locatorType: id
-09/10/2018 11:41:14 AM - Driver - INFO: Element not found with locator: answerBankCategorySelect and  locatorType: id
-09/10/2018 11:41:14 AM - Driver - INFO: Cannot click on the element with locator: answerBankCategorySelect locatorType: id
-09/10/2018 11:41:14 AM - Driver - INFO: Waiting for maximum :: 60 :: seconds for element to be clickable
-09/10/2018 11:41:20 AM - Driver - INFO: Element not appeared on the web page
-09/10/2018 11:41:26 AM - Driver - INFO: Element not found with locator: //option[contains(text(),'Yes - No')] and  locatorType: xpath
-09/10/2018 11:41:26 AM - Driver - INFO: Cannot click on the element with locator: //option[contains(text(),'Yes - No')] locatorType: xpath
-09/10/2018 11:41:31 AM - Driver - INFO: Waiting for maximum :: 5 :: seconds for element to be clickable
-09/10/2018 11:41:37 AM - Driver - INFO: Element not appeared on the web page
-09/10/2018 11:41:48 AM - Driver - INFO: Element not found with locator: //div[@id='editQuestion']//section[@class='t1']//a[text()='SAVE'] and  locatorType: xpath
-09/10/2018 11:41:48 AM - Driver - INFO: Cannot click on the element with locator: //div[@id='editQuestion']//section[@class='t1']//a[text()='SAVE'] locatorType: xpath
-09/10/2018 11:41:48 AM - Driver - INFO: Waiting for maximum :: 5 :: seconds for element to be clickable
-09/10/2018 11:41:54 AM - Driver - INFO: Element not appeared on the web page
-09/10/2018 11:42:05 AM - Driver - INFO: Element not found with locator: //div[@id='livePreview']//a[text()='NEW QUESTION'] and  locatorType: xpath
-09/10/2018 11:42:05 AM - Driver - INFO: Cannot click on the element with locator: //div[@id='livePreview']//a[text()='NEW QUESTION'] locatorType: xpath
-09/10/2018 11:42:11 AM - Driver - INFO: Element not found with locator: editTitle and  locatorType: id
-09/10/2018 11:42:11 AM - Driver - INFO: Cannot send data on the element with locator: editTitle locatorType: id
-09/10/2018 11:42:11 AM - Driver - INFO: Waiting for maximum :: 60 :: seconds for element to be clickable
-09/10/2018 11:42:17 AM - Driver - INFO: Element not appeared on the web page
-09/10/2018 11:42:23 AM - Driver - INFO: Element not found with locator: changeQType and  locatorType: id
-09/10/2018 11:42:23 AM - Driver - INFO: Cannot click on the element with locator: changeQType locatorType: id
-09/10/2018 11:42:23 AM - Driver - INFO: Waiting for maximum :: 60 :: seconds for element to be clickable
-09/10/2018 11:42:29 AM - Driver - INFO: Element not appeared on the web page
-09/10/2018 11:42:35 AM - Driver - INFO: Element not found with locator: //ul[@class='add-q-menu-left']//a[text()='Checkboxes'] and  locatorType: xpath
-09/10/2018 11:42:35 AM - Driver - INFO: Cannot click on the element with locator: //ul[@class='add-q-menu-left']//a[text()='Checkboxes'] locatorType: xpath
-09/10/2018 11:42:41 AM - Driver - INFO: Element not found with locator: //section[2]/div[2]/div[2]/div[1]/div[2]/table[1]/tbody[1]/tr[4]/td[2]/div[1]/div[1] and  locatorType: xpath
-09/10/2018 11:42:41 AM - Driver - INFO: Cannot send data on the element with locator: //section[2]/div[2]/div[2]/div[1]/div[2]/table[1]/tbody[1]/tr[4]/td[2]/div[1]/div[1] locatorType: xpath
-09/10/2018 11:42:47 AM - Driver - INFO: Element not found with locator: //section[2]/div[2]/div[2]/div[1]/div[2]/table[1]/tbody[1]/tr[5]/td[2]/div[1]/div[1] and  locatorType: xpath
-09/10/2018 11:42:47 AM - Driver - INFO: Cannot send data on the element with locator: //section[2]/div[2]/div[2]/div[1]/div[2]/table[1]/tbody[1]/tr[5]/td[2]/div[1]/div[1] locatorType: xpath
-09/10/2018 11:42:53 AM - Driver - INFO: Element not found with locator: //section[2]/div[2]/div[2]/div[1]/div[2]/table[1]/tbody[1]/tr[6]/td[2]/div[1]/div[1] and  locatorType: xpath
-09/10/2018 11:42:53 AM - Driver - INFO: Cannot send data on the element with locator: //section[2]/div[2]/div[2]/div[1]/div[2]/table[1]/tbody[1]/tr[6]/td[2]/div[1]/div[1] locatorType: xpath
-09/10/2018 11:42:59 AM - Driver - INFO: Element not found with locator: //section[2]/div[2]/div[2]/div[1]/div[2]/table[1]/tbody[1]/tr[7]/td[2]/div[1]/div[1] and  locatorType: xpath
-09/10/2018 11:42:59 AM - Driver - INFO: Cannot send data on the element with locator: //section[2]/div[2]/div[2]/div[1]/div[2]/table[1]/tbody[1]/tr[7]/td[2]/div[1]/div[1] locatorType: xpath
-09/10/2018 11:43:05 AM - Driver - INFO: Element not found with locator: //section[2]/div[2]/div[2]/div[1]/div[2]/table[1]/tbody[1]/tr[8]/td[2]/div[1]/div[1] and  locatorType: xpath
-09/10/2018 11:43:05 AM - Driver - INFO: Cannot send data on the element with locator: //section[2]/div[2]/div[2]/div[1]/div[2]/table[1]/tbody[1]/tr[8]/td[2]/div[1]/div[1] locatorType: xpath
-09/10/2018 11:43:10 AM - Driver - INFO: Waiting for maximum :: 5 :: seconds for element to be clickable
-09/10/2018 11:43:16 AM - Driver - INFO: Element not appeared on the web page
-09/10/2018 11:43:27 AM - Driver - INFO: Element not found with locator: //div[@id='editQuestion']//section[@class='t1']//a[text()='SAVE'] and  locatorType: xpath
-09/10/2018 11:43:27 AM - Driver - INFO: Cannot click on the element with locator: //div[@id='editQuestion']//section[@class='t1']//a[text()='SAVE'] locatorType: xpath
-09/10/2018 11:43:27 AM - Driver - INFO: Waiting for maximum :: 5 :: seconds for element to be clickable
-09/10/2018 11:43:33 AM - Driver - INFO: Element not appeared on the web page
-09/10/2018 11:43:45 AM - Driver - INFO: Element not found with locator: //div[@id='livePreview']//a[text()='NEW QUESTION'] and  locatorType: xpath
-09/10/2018 11:43:45 AM - Driver - INFO: Cannot click on the element with locator: //div[@id='livePreview']//a[text()='NEW QUESTION'] locatorType: xpath
-09/10/2018 11:43:51 AM - Driver - INFO: Element not found with locator: editTitle and  locatorType: id
-09/10/2018 11:43:51 AM - Driver - INFO: Cannot send data on the element with locator: editTitle locatorType: id
-09/10/2018 11:43:51 AM - Driver - INFO: Waiting for maximum :: 60 :: seconds for element to be clickable
-09/10/2018 11:43:57 AM - Driver - INFO: Element not appeared on the web page
-09/10/2018 11:44:03 AM - Driver - INFO: Element not found with locator: changeQType and  locatorType: id
-09/10/2018 11:44:03 AM - Driver - INFO: Cannot click on the element with locator: changeQType locatorType: id
-09/10/2018 11:44:03 AM - Driver - INFO: Waiting for maximum :: 60 :: seconds for element to be clickable
-09/10/2018 11:44:09 AM - Driver - INFO: Element not appeared on the web page
-09/10/2018 11:44:15 AM - Driver - INFO: Element not found with locator: //ul[@class='add-q-menu-right']//a[text()='Matrix / Rating Scale'] and  locatorType: xpath
-09/10/2018 11:44:15 AM - Driver - INFO: Cannot click on the element with locator: //ul[@class='add-q-menu-right']//a[text()='Matrix / Rating Scale'] locatorType: xpath
-09/10/2018 11:44:21 AM - Driver - INFO: Element not found with locator: //section[2]/div[2]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[3]/td[1]/div[1]/div[1] and  locatorType: xpath
-09/10/2018 11:44:21 AM - Driver - INFO: Cannot send data on the element with locator: //section[2]/div[2]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[3]/td[1]/div[1]/div[1] locatorType: xpath
-09/10/2018 11:44:27 AM - Driver - INFO: Element not found with locator: //section[2]/div[2]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[4]/td[1]/div[1]/div[1] and  locatorType: xpath
-09/10/2018 11:44:27 AM - Driver - INFO: Cannot send data on the element with locator: //section[2]/div[2]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[4]/td[1]/div[1]/div[1] locatorType: xpath
-09/10/2018 11:44:33 AM - Driver - INFO: Element not found with locator: //section[2]/div[2]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[5]/td[1]/div[1]/div[1] and  locatorType: xpath
-09/10/2018 11:44:33 AM - Driver - INFO: Cannot send data on the element with locator: //section[2]/div[2]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[5]/td[1]/div[1]/div[1] locatorType: xpath
-09/10/2018 11:44:39 AM - Driver - INFO: Element not found with locator: //section[2]/div[2]/div[2]/div[1]/div[3]/div[1]/table[1]/tbody[1]/tr[2]/td[1]/div[1]/div[1] and  locatorType: xpath
-09/10/2018 11:44:39 AM - Driver - INFO: Cannot send data on the element with locator: //section[2]/div[2]/div[2]/div[1]/div[3]/div[1]/table[1]/tbody[1]/tr[2]/td[1]/div[1]/div[1] locatorType: xpath
-09/10/2018 11:44:45 AM - Driver - INFO: Element not found with locator: //section[2]/div[2]/div[2]/div[1]/div[3]/div[1]/table[1]/tbody[1]/tr[3]/td[1]/div[1]/div[1] and  locatorType: xpath
-09/10/2018 11:44:45 AM - Driver - INFO: Cannot send data on the element with locator: //section[2]/div[2]/div[2]/div[1]/div[3]/div[1]/table[1]/tbody[1]/tr[3]/td[1]/div[1]/div[1] locatorType: xpath
-09/10/2018 11:44:51 AM - Driver - INFO: Element not found with locator: //section[2]/div[2]/div[2]/div[1]/div[3]/div[1]/table[1]/tbody[1]/tr[4]/td[1]/div[1]/div[1] and  locatorType: xpath
-09/10/2018 11:44:51 AM - Driver - INFO: Cannot send data on the element with locator: //section[2]/div[2]/div[2]/div[1]/div[3]/div[1]/table[1]/tbody[1]/tr[4]/td[1]/div[1]/div[1] locatorType: xpath
-09/10/2018 11:44:57 AM - Driver - INFO: Element not found with locator: //section[2]/div[2]/div[2]/div[1]/div[3]/div[1]/table[1]/tbody[1]/tr[5]/td[1]/div[1]/div[1] and  locatorType: xpath
-09/10/2018 11:44:57 AM - Driver - INFO: Cannot send data on the element with locator: //section[2]/div[2]/div[2]/div[1]/div[3]/div[1]/table[1]/tbody[1]/tr[5]/td[1]/div[1]/div[1] locatorType: xpath
-09/10/2018 11:45:03 AM - Driver - INFO: Element not found with locator: //tr[6]//a[@title='Delete this choice.'] and  locatorType: xpath
-09/10/2018 11:45:03 AM - Driver - INFO: Cannot click on the element with locator: //tr[6]//a[@title='Delete this choice.'] locatorType: xpath
-09/10/2018 11:45:08 AM - Driver - INFO: Waiting for maximum :: 5 :: seconds for element to be clickable
-09/10/2018 11:45:14 AM - Driver - INFO: Element not appeared on the web page
-09/10/2018 11:45:25 AM - Driver - INFO: Element not found with locator: //div[@id='editQuestion']//section[@class='t1']//a[text()='SAVE'] and  locatorType: xpath
-09/10/2018 11:45:25 AM - Driver - INFO: Cannot click on the element with locator: //div[@id='editQuestion']//section[@class='t1']//a[text()='SAVE'] locatorType: xpath
-09/10/2018 11:45:25 AM - Driver - INFO: Waiting for maximum :: 5 :: seconds for element to be clickable
-09/10/2018 11:45:31 AM - Driver - INFO: Element not appeared on the web page
-09/10/2018 11:45:42 AM - Driver - INFO: Element not found with locator: //div[@id='livePreview']//a[text()='NEW QUESTION'] and  locatorType: xpath
-09/10/2018 11:45:42 AM - Driver - INFO: Cannot click on the element with locator: //div[@id='livePreview']//a[text()='NEW QUESTION'] locatorType: xpath
-09/10/2018 11:45:48 AM - Driver - INFO: Element not found with locator: editTitle and  locatorType: id
-09/10/2018 11:45:48 AM - Driver - INFO: Cannot send data on the element with locator: editTitle locatorType: id
-09/10/2018 11:45:48 AM - Driver - INFO: Waiting for maximum :: 60 :: seconds for element to be clickable
-09/10/2018 11:45:54 AM - Driver - INFO: Element not appeared on the web page
-09/10/2018 11:46:00 AM - Driver - INFO: Element not found with locator: changeQType and  locatorType: id
-09/10/2018 11:46:00 AM - Driver - INFO: Cannot click on the element with locator: changeQType locatorType: id
-09/10/2018 11:46:00 AM - Driver - INFO: Waiting for maximum :: 60 :: seconds for element to be clickable
-09/10/2018 11:46:06 AM - Driver - INFO: Element not appeared on the web page
-09/10/2018 11:46:12 AM - Driver - INFO: Element not found with locator: //ul[@class='add-q-menu-right']//a[text()='Multiple Textboxes'] and  locatorType: xpath
-09/10/2018 11:46:12 AM - Driver - INFO: Cannot click on the element with locator: //ul[@class='add-q-menu-right']//a[text()='Multiple Textboxes'] locatorType: xpath
-09/10/2018 11:46:18 AM - Driver - INFO: Element not found with locator: //section[2]/div[2]/div[2]/div[1]/div[1]/table[1]/tbody[1]/tr[3]/td[1]/div[1]/div[1] and  locatorType: xpath
-09/10/2018 11:46:18 AM - Driver - INFO: Cannot send data on the element with locator: //section[2]/div[2]/div[2]/div[1]/div[1]/table[1]/tbody[1]/tr[3]/td[1]/div[1]/div[1] locatorType: xpath
-09/10/2018 11:46:24 AM - Driver - INFO: Element not found with locator: //section[2]/div[2]/div[2]/div[1]/div[1]/table[1]/tbody[1]/tr[4]/td[1]/div[1]/div[1] and  locatorType: xpath
-09/10/2018 11:46:24 AM - Driver - INFO: Cannot send data on the element with locator: //section[2]/div[2]/div[2]/div[1]/div[1]/table[1]/tbody[1]/tr[4]/td[1]/div[1]/div[1] locatorType: xpath
-09/10/2018 11:46:30 AM - Driver - INFO: Element not found with locator: //section[2]/div[2]/div[2]/div[1]/div[1]/table[1]/tbody[1]/tr[5]/td[1]/div[1]/div[1] and  locatorType: xpath
-09/10/2018 11:46:30 AM - Driver - INFO: Cannot send data on the element with locator: //section[2]/div[2]/div[2]/div[1]/div[1]/table[1]/tbody[1]/tr[5]/td[1]/div[1]/div[1] locatorType: xpath
-09/10/2018 11:46:35 AM - Driver - INFO: Waiting for maximum :: 5 :: seconds for element to be clickable
-09/10/2018 11:46:41 AM - Driver - INFO: Element not appeared on the web page
-09/10/2018 11:46:52 AM - Driver - INFO: Element not found with locator: //div[@id='editQuestion']//section[@class='t1']//a[text()='SAVE'] and  locatorType: xpath
-09/10/2018 11:46:52 AM - Driver - INFO: Cannot click on the element with locator: //div[@id='editQuestion']//section[@class='t1']//a[text()='SAVE'] locatorType: xpath
-09/10/2018 11:46:52 AM - Driver - INFO: Waiting for maximum :: 5 :: seconds for element to be clickable
-09/10/2018 11:46:58 AM - Driver - INFO: Element not appeared on the web page
-09/10/2018 11:47:09 AM - Driver - INFO: Element not found with locator: //div[@id='livePreview']//a[text()='NEW QUESTION'] and  locatorType: xpath
-09/10/2018 11:47:09 AM - Driver - INFO: Cannot click on the element with locator: //div[@id='livePreview']//a[text()='NEW QUESTION'] locatorType: xpath
-09/10/2018 11:47:15 AM - Driver - INFO: Element not found with locator: //li[@title='Builder'] and  locatorType: xpath
-09/10/2018 11:47:15 AM - Driver - INFO: Cannot click on the element with locator: //li[@title='Builder'] locatorType: xpath
-09/10/2018 11:47:21 AM - Driver - INFO: Element not found with locator: //div[@id='builderQuestionContainer']//span[text()='Multiple Choice'] and  locatorType: xpath
-09/10/2018 11:47:21 AM - Driver - INFO: source_element is found //div[@id='builderQuestionContainer']//span[text()='Multiple Choice']with locator typexpath
-09/10/2018 11:47:27 AM - Driver - INFO: Element not found with locator: //div[@class='add-question-btn zero-state-hide ui-droppable'] and  locatorType: xpath
-09/10/2018 11:47:27 AM - Driver - INFO: destination element is found //div[@class='add-question-btn zero-state-hide ui-droppable']with locator typexpath
-09/10/2018 11:47:27 AM - Driver - INFO: <selenium.webdriver.common.action_chains.ActionChains object at 0x000001989267BF98>
-09/10/2018 11:47:33 AM - Driver - INFO: Cannot perfrom drag nad drop //div[@id='builderQuestionContainer']//span[text()='Multiple Choice'] locatorType: xpath
-09/10/2018 11:47:33 AM - Driver - INFO: Waiting for maximum :: 60 :: seconds for element to be clickable
-09/10/2018 11:47:39 AM - Driver - INFO: Element not appeared on the web page
-09/10/2018 11:47:45 AM - Driver - INFO: Element not found with locator: editQuestion and  locatorType: id
-09/10/2018 11:47:45 AM - Driver - INFO: Cannot click on the element with locator: editQuestion locatorType: id
-09/10/2018 11:47:51 AM - Driver - INFO: Element not found with locator: editTitle and  locatorType: id
-09/10/2018 11:47:51 AM - Driver - INFO: Cannot send data on the element with locator: editTitle locatorType: id
-09/10/2018 11:47:51 AM - Driver - INFO: Waiting for maximum :: 60 :: seconds for element to be clickable
-09/10/2018 11:47:57 AM - Driver - INFO: Element not appeared on the web page
-09/10/2018 11:48:03 AM - Driver - INFO: Element not found with locator: answerBankCategorySelect and  locatorType: id
-09/10/2018 11:48:03 AM - Driver - INFO: Cannot click on the element with locator: answerBankCategorySelect locatorType: id
-09/10/2018 11:48:03 AM - Driver - INFO: Waiting for maximum :: 60 :: seconds for element to be clickable
-09/10/2018 11:48:09 AM - Driver - INFO: Element not appeared on the web page
-09/10/2018 11:48:15 AM - Driver - INFO: Element not found with locator: //option[contains(text(),'Yes - No')] and  locatorType: xpath
-09/10/2018 11:48:15 AM - Driver - INFO: Cannot click on the element with locator: //option[contains(text(),'Yes - No')] locatorType: xpath
-09/10/2018 11:48:20 AM - Driver - INFO: Waiting for maximum :: 5 :: seconds for element to be clickable
-09/10/2018 11:48:26 AM - Driver - INFO: Element not appeared on the web page
-09/10/2018 11:48:37 AM - Driver - INFO: Element not found with locator: //div[@id='editQuestion']//section[@class='t1']//a[text()='SAVE'] and  locatorType: xpath
-09/10/2018 11:48:37 AM - Driver - INFO: Cannot click on the element with locator: //div[@id='editQuestion']//section[@class='t1']//a[text()='SAVE'] locatorType: xpath
-09/10/2018 11:48:37 AM - Driver - INFO: Waiting for maximum :: 5 :: seconds for element to be clickable
-09/10/2018 11:48:43 AM - Driver - INFO: Element not appeared on the web page
-09/10/2018 11:48:54 AM - Driver - INFO: Element not found with locator: //div[@id='livePreview']//a[text()='NEW QUESTION'] and  locatorType: xpath
-09/10/2018 11:48:54 AM - Driver - INFO: Cannot click on the element with locator: //div[@id='livePreview']//a[text()='NEW QUESTION'] locatorType: xpath
-09/10/2018 11:49:00 AM - Driver - INFO: Element not found with locator: //li[@title='Builder'] and  locatorType: xpath
-09/10/2018 11:49:00 AM - Driver - INFO: Cannot click on the element with locator: //li[@title='Builder'] locatorType: xpath
-09/10/2018 11:49:06 AM - Driver - INFO: Element not found with locator: //div[@id='builderQuestionContainer']//span[text()='Comment Box'] and  locatorType: xpath
-09/10/2018 11:49:06 AM - Driver - INFO: source_element is found //div[@id='builderQuestionContainer']//span[text()='Comment Box']with locator typexpath
-09/10/2018 11:49:12 AM - Driver - INFO: Element not found with locator: //div[@class='add-question-btn zero-state-hide ui-droppable'] and  locatorType: xpath
-09/10/2018 11:49:12 AM - Driver - INFO: destination element is found //div[@class='add-question-btn zero-state-hide ui-droppable']with locator typexpath
-09/10/2018 11:49:12 AM - Driver - INFO: <selenium.webdriver.common.action_chains.ActionChains object at 0x000001989206A160>
-09/10/2018 11:49:18 AM - Driver - INFO: Cannot perfrom drag nad drop //div[@id='builderQuestionContainer']//span[text()='Comment Box'] locatorType: xpath
-09/10/2018 11:49:24 AM - Driver - INFO: Element not found with locator: editQuestion and  locatorType: id
-09/10/2018 11:49:24 AM - Driver - INFO: Cannot click on the element with locator: editQuestion locatorType: id
-09/10/2018 11:49:30 AM - Driver - INFO: Element not found with locator: editTitle and  locatorType: id
-09/10/2018 11:49:30 AM - Driver - INFO: Cannot send data on the element with locator: editTitle locatorType: id
-09/10/2018 11:49:35 AM - Driver - INFO: Waiting for maximum :: 5 :: seconds for element to be clickable
-09/10/2018 11:49:41 AM - Driver - INFO: Element not appeared on the web page
-09/10/2018 11:49:52 AM - Driver - INFO: Element not found with locator: //div[@id='editQuestion']//section[@class='t1']//a[text()='SAVE'] and  locatorType: xpath
-09/10/2018 11:49:52 AM - Driver - INFO: Cannot click on the element with locator: //div[@id='editQuestion']//section[@class='t1']//a[text()='SAVE'] locatorType: xpath
+09/11/2018 04:24:03 PM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/11/2018 04:24:06 PM - Driver - INFO: Clicked on element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/11/2018 04:24:06 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/11/2018 04:24:06 PM - Driver - INFO: Clear field with locator: username locatorType: id
+09/11/2018 04:24:06 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/11/2018 04:24:06 PM - Driver - INFO: Sent data on element with locator: username locatorType: id
+09/11/2018 04:24:06 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/11/2018 04:24:06 PM - Driver - INFO: Clear field with locator: password locatorType: id
+09/11/2018 04:24:06 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/11/2018 04:24:06 PM - Driver - INFO: Sent data on element with locator: password locatorType: id
+09/11/2018 04:24:06 PM - Driver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
+09/11/2018 04:24:12 PM - Driver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+09/11/2018 04:24:58 PM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/11/2018 04:25:04 PM - Driver - INFO: Clicked on element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/11/2018 04:25:04 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/11/2018 04:25:04 PM - Driver - INFO: Clear field with locator: username locatorType: id
+09/11/2018 04:25:04 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/11/2018 04:25:04 PM - Driver - INFO: Sent data on element with locator: username locatorType: id
+09/11/2018 04:25:04 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/11/2018 04:25:04 PM - Driver - INFO: Clear field with locator: password locatorType: id
+09/11/2018 04:25:04 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/11/2018 04:25:04 PM - Driver - INFO: Sent data on element with locator: password locatorType: id
+09/11/2018 04:25:04 PM - Driver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
+09/11/2018 04:25:08 PM - Driver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+09/11/2018 04:50:24 PM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/11/2018 04:50:31 PM - Driver - INFO: Clicked on element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/11/2018 04:50:31 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/11/2018 04:50:31 PM - Driver - INFO: Clear field with locator: username locatorType: id
+09/11/2018 04:50:31 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/11/2018 04:50:31 PM - Driver - INFO: Sent data on element with locator: username locatorType: id
+09/11/2018 04:50:31 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/11/2018 04:50:31 PM - Driver - INFO: Clear field with locator: password locatorType: id
+09/11/2018 04:50:31 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/11/2018 04:50:31 PM - Driver - INFO: Sent data on element with locator: password locatorType: id
+09/11/2018 04:50:31 PM - Driver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
+09/11/2018 04:50:43 PM - Driver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+09/11/2018 04:52:17 PM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/11/2018 04:52:24 PM - Driver - INFO: Clicked on element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/11/2018 04:52:24 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/11/2018 04:52:24 PM - Driver - INFO: Clear field with locator: username locatorType: id
+09/11/2018 04:52:24 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/11/2018 04:52:24 PM - Driver - INFO: Sent data on element with locator: username locatorType: id
+09/11/2018 04:52:24 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/11/2018 04:52:24 PM - Driver - INFO: Clear field with locator: password locatorType: id
+09/11/2018 04:52:24 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/11/2018 04:52:24 PM - Driver - INFO: Sent data on element with locator: password locatorType: id
+09/11/2018 04:52:24 PM - Driver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
+09/11/2018 04:52:32 PM - Driver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+09/11/2018 04:54:27 PM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/11/2018 04:54:34 PM - Driver - INFO: Clicked on element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/11/2018 04:54:34 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/11/2018 04:54:34 PM - Driver - INFO: Clear field with locator: username locatorType: id
+09/11/2018 04:54:34 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/11/2018 04:54:34 PM - Driver - INFO: Sent data on element with locator: username locatorType: id
+09/11/2018 04:54:34 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/11/2018 04:54:34 PM - Driver - INFO: Clear field with locator: password locatorType: id
+09/11/2018 04:54:34 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/11/2018 04:54:34 PM - Driver - INFO: Sent data on element with locator: password locatorType: id
+09/11/2018 04:54:34 PM - Driver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
+09/11/2018 04:54:40 PM - Driver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+09/11/2018 04:55:08 PM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/11/2018 04:55:15 PM - Driver - INFO: Clicked on element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/11/2018 04:55:15 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/11/2018 04:55:15 PM - Driver - INFO: Clear field with locator: username locatorType: id
+09/11/2018 04:55:15 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/11/2018 04:55:15 PM - Driver - INFO: Sent data on element with locator: username locatorType: id
+09/11/2018 04:55:15 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/11/2018 04:55:15 PM - Driver - INFO: Clear field with locator: password locatorType: id
+09/11/2018 04:55:15 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/11/2018 04:55:15 PM - Driver - INFO: Sent data on element with locator: password locatorType: id
+09/11/2018 04:55:15 PM - Driver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
+09/11/2018 04:55:25 PM - Driver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+09/11/2018 04:58:18 PM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/11/2018 04:58:25 PM - Driver - INFO: Clicked on element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/11/2018 04:58:26 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/11/2018 04:58:26 PM - Driver - INFO: Clear field with locator: username locatorType: id
+09/11/2018 04:58:26 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/11/2018 04:58:26 PM - Driver - INFO: Sent data on element with locator: username locatorType: id
+09/11/2018 04:58:26 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/11/2018 04:58:26 PM - Driver - INFO: Clear field with locator: password locatorType: id
+09/11/2018 04:58:26 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/11/2018 04:58:26 PM - Driver - INFO: Sent data on element with locator: password locatorType: id
+09/11/2018 04:58:26 PM - Driver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
+09/11/2018 04:58:37 PM - Driver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+09/11/2018 04:58:56 PM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/11/2018 04:59:05 PM - Driver - INFO: Clicked on element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/11/2018 04:59:05 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/11/2018 04:59:05 PM - Driver - INFO: Clear field with locator: username locatorType: id
+09/11/2018 04:59:05 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/11/2018 04:59:05 PM - Driver - INFO: Sent data on element with locator: username locatorType: id
+09/11/2018 04:59:05 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/11/2018 04:59:05 PM - Driver - INFO: Clear field with locator: password locatorType: id
+09/11/2018 04:59:05 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/11/2018 04:59:05 PM - Driver - INFO: Sent data on element with locator: password locatorType: id
+09/11/2018 04:59:05 PM - Driver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
+09/11/2018 04:59:11 PM - Driver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+09/11/2018 05:00:18 PM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/11/2018 05:00:25 PM - Driver - INFO: Clicked on element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/11/2018 05:00:25 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/11/2018 05:00:25 PM - Driver - INFO: Clear field with locator: username locatorType: id
+09/11/2018 05:00:25 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/11/2018 05:00:26 PM - Driver - INFO: Sent data on element with locator: username locatorType: id
+09/11/2018 05:00:26 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/11/2018 05:00:26 PM - Driver - INFO: Clear field with locator: password locatorType: id
+09/11/2018 05:00:26 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/11/2018 05:00:26 PM - Driver - INFO: Sent data on element with locator: password locatorType: id
+09/11/2018 05:00:26 PM - Driver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
+09/11/2018 05:00:35 PM - Driver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+09/11/2018 06:03:58 PM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/11/2018 06:04:01 PM - Driver - INFO: Clicked on element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/11/2018 06:04:01 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/11/2018 06:04:01 PM - Driver - INFO: Clear field with locator: username locatorType: id
+09/11/2018 06:04:01 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/11/2018 06:04:01 PM - Driver - INFO: Sent data on element with locator: username locatorType: id
+09/11/2018 06:04:01 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/11/2018 06:04:01 PM - Driver - INFO: Clear field with locator: password locatorType: id
+09/11/2018 06:04:01 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/11/2018 06:04:01 PM - Driver - INFO: Sent data on element with locator: password locatorType: id
+09/11/2018 06:04:01 PM - Driver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
+09/11/2018 06:04:08 PM - Driver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+09/11/2018 06:34:56 PM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/11/2018 06:35:03 PM - Driver - INFO: Clicked on element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/11/2018 06:35:03 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/11/2018 06:35:03 PM - Driver - INFO: Clear field with locator: username locatorType: id
+09/11/2018 06:35:03 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/11/2018 06:35:03 PM - Driver - INFO: Sent data on element with locator: username locatorType: id
+09/11/2018 06:35:03 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/11/2018 06:35:03 PM - Driver - INFO: Clear field with locator: password locatorType: id
+09/11/2018 06:35:03 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/11/2018 06:35:03 PM - Driver - INFO: Sent data on element with locator: password locatorType: id
+09/11/2018 06:35:03 PM - Driver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
+09/11/2018 06:35:10 PM - Driver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
