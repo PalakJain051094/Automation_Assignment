@@ -14,7 +14,7 @@ class YamlConverter:
     def __init__(self,file_name):
         """
 
-        InIt of class ConvertYaml and in this we get full file name
+        InIt of class YamlConverter and in this we get full file name
 
         * :param file_name: name of file
         * :param self :current instance of class
