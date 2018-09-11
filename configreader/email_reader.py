@@ -7,7 +7,7 @@ from pprint import pprint as pp
 class YamlEmailConverter:
     """
 
-    This class take input from email_config yaml file
+    This class take input from email_config yaml file.
 
     """
 
