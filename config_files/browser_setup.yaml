@@ -1,9 +1,0 @@
----
-# config file for browser
- platfrom:
-   browser: "chrome"
- siteconfiguration:
-    url: "https://www.surveymonkey.com"
- login:
-   user: "jain.palak"
-   password: "palak0505"
