@@ -16,7 +16,7 @@ class ValidationData():
         INIT of class ValidationData having dictionary which contains type of all pattern
 
         """
-        self.all_pattern = {'string': '^[a-zA-Z]+$',
+        self.all_pattern = {'string': '^[a-zA-Z]{1,255}$',
                             'alphanumeric': '^[a-zA-Z0-9]{1,255}$',
                             'specialcharacters': '^[-a-zA-Z0-9!@#$&()`.+,/\"]{1,255}$',
                             'email': '^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.com)$',
