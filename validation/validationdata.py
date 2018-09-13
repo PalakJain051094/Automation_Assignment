@@ -14,7 +14,6 @@ class ValidationData():
         """
 
         INIT of class ValidationData having dictionary which contains type of all pattern
-         'mobile_no': '(0|91)?[7-9][0-9]{9}(\d{3})\D*(\d{3})\D*(\d{4})==^(\d{3}--\d{3}--\d{4}){10}
 
         """
         self.all_pattern = {'string': '^[a-zA-Z]+$',
