@@ -51,7 +51,7 @@ class ValidationData:
             else:
                 print("Please enter valid pattern")
         except KeyError:
-            print("Pattern with " + pattern + " not found")
+            print("Pattern with" + pattern + " not found")
 
 
     def check_value(self, value, pattern):
@@ -93,7 +93,6 @@ class ValidationData:
         except Exception as e:
             print(str(e))
 
-
     def validate_string(self, pattern='alphanumeric', value="", min_length=1, max_length=255):
         """
 
@@ -125,7 +124,7 @@ class ValidationData:
                     print("Enter correct value of  " + pattern)
                     return False
         except Exception as e:
-            print(e)
+            print(str(e))
 
     def validate_numbers(self, pattern='card_number', value=""):
         """
@@ -158,7 +157,7 @@ class ValidationData:
                     print("Enter correct value of  " + pattern)
                     return False
         except Exception as e:
-            print(e)
+            print(str(e))
 
     def validate_date(self, pattern='dd/mm/yyyy', value=""):
         """
@@ -221,4 +220,4 @@ class ValidationData:
                           str(to_date) + " is done successfully ")
                     return True
         except Exception as e:
-            print(str(e) + " , please enter Correct value of " + pattern)
+            print(str(e)+ " , please enter Correct value of " + pattern)
