@@ -45,11 +45,14 @@ class ValidationData:
             - False -- when no pattern is specify
 
         """
-        if pattern:
-            return self.all_pattern[pattern]
-        else:
+        try:
+            if pattern:
+                return self.all_pattern[pattern]
+            else:
+                print("Please enter valid pattern")
+        except KeyError:
             print("Pattern with " + pattern + " not found")
-            return False
+
 
     def check_value(self, value, pattern):
         """
@@ -83,9 +86,13 @@ class ValidationData:
         * :return: valid_value
 
         """
-        pattern_type = self.get_pattern(pattern)
-        valid_value = re.match(pattern_type, value)
-        return valid_value
+        try:
+            pattern_type = self.get_pattern(pattern)
+            valid_value = re.match(pattern_type, value)
+            return valid_value
+        except Exception as e:
+            print(str(e))
+
 
     def validate_string(self, pattern='alphanumeric', value="", min_length=1, max_length=255):
         """
@@ -108,10 +115,10 @@ class ValidationData:
 
         """
         try:
+            valid_value = self.get_valid_value(pattern, value)
             check_value = self.check_value(value, pattern)
             if check_value is True:
-                valid_value = self.get_valid_value(pattern, value)
-                if valid_value:
+                if valid_value and len(value) <= max_length:
                     print("validation of " + pattern + " with value " + value + " is done successfully")
                     return True
                 else:
@@ -141,9 +148,9 @@ class ValidationData:
 
         """
         try:
+            valid_value = self.get_valid_value(pattern, value)
             check_value = self.check_value(value, pattern)
             if check_value is True:
-                valid_value = self.get_valid_value(pattern, value)
                 if valid_value:
                     print("validation of " + pattern + " with value " + value + " is done successfully")
                     return True
