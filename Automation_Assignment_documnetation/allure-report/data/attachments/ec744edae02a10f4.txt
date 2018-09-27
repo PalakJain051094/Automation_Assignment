@@ -1,0 +1,17 @@
+test_login.py               58 INFO     test_validLogin started
+browsersetup.py            161 INFO     Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+browsersetup.py            189 INFO     Cannot click on the element with locator: //a[text()='LOG IN'] locatorType: xpath
+browsersetup.py            161 INFO     Element found with locator: username and  locatorType: id
+browsersetup.py            232 INFO     Clear field with locator: username locatorType: id
+browsersetup.py            161 INFO     Element found with locator: username and  locatorType: id
+browsersetup.py            211 INFO     Sent data on element with locator: username locatorType: id
+browsersetup.py            161 INFO     Element found with locator: password and  locatorType: id
+browsersetup.py            232 INFO     Clear field with locator: password locatorType: id
+browsersetup.py            161 INFO     Element found with locator: password and  locatorType: id
+browsersetup.py            211 INFO     Sent data on element with locator: password locatorType: id
+browsersetup.py            161 INFO     Element found with locator: //button[@type='submit'] and  locatorType: xpath
+browsersetup.py            186 INFO     Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+browsersetup.py            252 INFO     Waiting for maximum :: 5 :: seconds for element to be clickable
+browsersetup.py            259 INFO     Element appeared on the web page
+browsersetup.py            161 INFO     Element found with locator: userAcctTab_MainMenu and  locatorType: id
+browsersetup.py            286 INFO     Element present with locator: userAcctTab_MainMenu locatorType: id

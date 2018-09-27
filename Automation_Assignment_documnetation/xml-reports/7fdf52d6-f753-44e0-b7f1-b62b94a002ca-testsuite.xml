@@ -1,0 +1,67 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1538037775019" stop="1538037808161">
+  <name>testcases.test_login</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1538037775019" status="passed" stop="1538037803630">
+      <description>
+
+          This test case  is check invalid login
+          assert true if result is true.
+
+        * :param self: current instance of class
+
+        </description>
+      <name>TestLogin.test_invalidLogin</name>
+      <attachments>
+        <attachment source="6cf812a5-4b31-4070-8f72-7df572ec1918-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="9dec833c-df4b-4bf7-bc22-14c0a3f763f9-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="12704-MainThread"/>
+        <label name="host" value="IB-PUNE-PC-071"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1538037796975" status="passed" stop="1538037803630">
+          <name>invalid login</name>
+          <title>invalid login</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1538037803630" status="passed" stop="1538037808161">
+      <description>
+
+          This test case check login successfully or not
+          assert true if result is true.
+
+        * :param self: current instance of class
+
+
+        </description>
+      <name>TestLogin.test_validLogin</name>
+      <attachments>
+        <attachment source="06ea6af1-1454-44d1-a27d-dc3a111334c5-attachment.txt" title="Captured stderr call" type="text/plain"/>
+        <attachment source="364071c9-df3e-4b29-a213-a937451c7a05-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="12704-MainThread"/>
+        <label name="host" value="IB-PUNE-PC-071"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1538037803630" status="passed" stop="1538037808161">
+          <name>valid login</name>
+          <title>valid login</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

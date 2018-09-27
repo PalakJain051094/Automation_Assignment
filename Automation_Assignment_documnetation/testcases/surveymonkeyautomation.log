@@ -1,0 +1,544 @@
+09/05/2018 01:45:16 PM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/05/2018 01:45:23 PM - Driver - INFO: Clicked on element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/05/2018 01:45:23 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/05/2018 01:45:23 PM - Driver - INFO: Clear field with locator: username locatorType: id
+09/05/2018 01:45:23 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/05/2018 01:45:23 PM - Driver - INFO: Sent data on element with locator: username locatorType: id
+09/05/2018 01:45:23 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/05/2018 01:45:23 PM - Driver - INFO: Clear field with locator: password locatorType: id
+09/05/2018 01:45:23 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/05/2018 01:45:23 PM - Driver - INFO: Sent data on element with locator: password locatorType: id
+09/05/2018 01:45:23 PM - Driver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
+09/05/2018 01:45:35 PM - Driver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+09/05/2018 01:45:35 PM - TestLogin - INFO: test_validLogin started
+09/05/2018 01:45:36 PM - Driver - INFO: Element found with locator: userAcctTab_MainMenu and  locatorType: id
+09/05/2018 01:45:41 PM - Driver - INFO: Clicked on element with locator: userAcctTab_MainMenu locatorType: id
+09/05/2018 01:45:41 PM - Driver - INFO: Element found with locator: //li[@id='dd-my-account']//a[text()='Sign Out'] and  locatorType: xpath
+09/05/2018 01:45:49 PM - Driver - INFO: Clicked on element with locator: //li[@id='dd-my-account']//a[text()='Sign Out'] locatorType: xpath
+09/05/2018 01:45:49 PM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/05/2018 01:45:55 PM - Driver - INFO: Clicked on element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/05/2018 01:45:55 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/05/2018 01:45:55 PM - Driver - INFO: Clear field with locator: username locatorType: id
+09/05/2018 01:45:55 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/05/2018 01:45:55 PM - Driver - INFO: Sent data on element with locator: username locatorType: id
+09/05/2018 01:45:55 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/05/2018 01:45:55 PM - Driver - INFO: Clear field with locator: password locatorType: id
+09/05/2018 01:45:55 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/05/2018 01:45:55 PM - Driver - INFO: Sent data on element with locator: password locatorType: id
+09/05/2018 01:45:55 PM - Driver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
+09/05/2018 01:46:05 PM - Driver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+09/05/2018 01:46:05 PM - Driver - INFO: Waiting for maximum :: 5 :: seconds for element to be clickable
+09/05/2018 01:46:05 PM - Driver - INFO: Element appeared on the web page
+09/05/2018 01:46:05 PM - Driver - INFO: Element found with locator: userAcctTab_MainMenu and  locatorType: id
+09/05/2018 01:46:05 PM - Driver - INFO: Element present with locator: userAcctTab_MainMenu locatorType: id
+09/05/2018 01:46:26 PM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/05/2018 01:46:28 PM - Driver - INFO: Clicked on element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/05/2018 01:46:28 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/05/2018 01:46:28 PM - Driver - INFO: Clear field with locator: username locatorType: id
+09/05/2018 01:46:28 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/05/2018 01:46:28 PM - Driver - INFO: Sent data on element with locator: username locatorType: id
+09/05/2018 01:46:28 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/05/2018 01:46:28 PM - Driver - INFO: Clear field with locator: password locatorType: id
+09/05/2018 01:46:28 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/05/2018 01:46:29 PM - Driver - INFO: Sent data on element with locator: password locatorType: id
+09/05/2018 01:46:29 PM - Driver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
+09/05/2018 01:46:33 PM - Driver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+09/05/2018 01:46:33 PM - TestLogin - INFO: test_validLogin started
+09/05/2018 01:46:33 PM - Driver - INFO: Element found with locator: userAcctTab_MainMenu and  locatorType: id
+09/05/2018 01:46:33 PM - Driver - INFO: Clicked on element with locator: userAcctTab_MainMenu locatorType: id
+09/05/2018 01:46:33 PM - Driver - INFO: Element found with locator: //li[@id='dd-my-account']//a[text()='Sign Out'] and  locatorType: xpath
+09/05/2018 01:46:37 PM - Driver - INFO: Clicked on element with locator: //li[@id='dd-my-account']//a[text()='Sign Out'] locatorType: xpath
+09/05/2018 01:46:37 PM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/05/2018 01:46:38 PM - Driver - INFO: Clicked on element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/05/2018 01:46:38 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/05/2018 01:46:38 PM - Driver - INFO: Clear field with locator: username locatorType: id
+09/05/2018 01:46:38 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/05/2018 01:46:38 PM - Driver - INFO: Sent data on element with locator: username locatorType: id
+09/05/2018 01:46:38 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/05/2018 01:46:38 PM - Driver - INFO: Clear field with locator: password locatorType: id
+09/05/2018 01:46:38 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/05/2018 01:46:38 PM - Driver - INFO: Sent data on element with locator: password locatorType: id
+09/05/2018 01:46:39 PM - Driver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
+09/05/2018 01:46:45 PM - Driver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+09/05/2018 01:46:45 PM - Driver - INFO: Waiting for maximum :: 5 :: seconds for element to be clickable
+09/05/2018 01:46:45 PM - Driver - INFO: Element appeared on the web page
+09/05/2018 01:46:45 PM - Driver - INFO: Element found with locator: userAcctTab_MainMenu and  locatorType: id
+09/05/2018 01:46:45 PM - Driver - INFO: Element present with locator: userAcctTab_MainMenu locatorType: id
+09/05/2018 03:13:40 PM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/05/2018 03:13:42 PM - Driver - INFO: Clicked on element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/05/2018 03:13:42 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/05/2018 03:13:42 PM - Driver - INFO: Clear field with locator: username locatorType: id
+09/05/2018 03:13:42 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/05/2018 03:13:42 PM - Driver - INFO: Sent data on element with locator: username locatorType: id
+09/05/2018 03:13:42 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/05/2018 03:13:42 PM - Driver - INFO: Clear field with locator: password locatorType: id
+09/05/2018 03:13:42 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/05/2018 03:13:42 PM - Driver - INFO: Sent data on element with locator: password locatorType: id
+09/05/2018 03:13:42 PM - Driver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
+09/05/2018 03:13:51 PM - Driver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+09/05/2018 03:13:51 PM - TestLogin - INFO: test_validLogin started
+09/05/2018 03:13:51 PM - Driver - INFO: Element found with locator: userAcctTab_MainMenu and  locatorType: id
+09/05/2018 03:13:51 PM - Driver - INFO: Clicked on element with locator: userAcctTab_MainMenu locatorType: id
+09/05/2018 03:13:51 PM - Driver - INFO: Element found with locator: //li[@id='dd-my-account']//a[text()='Sign Out'] and  locatorType: xpath
+09/05/2018 03:13:54 PM - Driver - INFO: Clicked on element with locator: //li[@id='dd-my-account']//a[text()='Sign Out'] locatorType: xpath
+09/05/2018 03:13:54 PM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/05/2018 03:13:55 PM - Driver - INFO: Clicked on element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/05/2018 03:13:55 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/05/2018 03:13:55 PM - Driver - INFO: Clear field with locator: username locatorType: id
+09/05/2018 03:13:55 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/05/2018 03:13:55 PM - Driver - INFO: Sent data on element with locator: username locatorType: id
+09/05/2018 03:13:55 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/05/2018 03:13:56 PM - Driver - INFO: Clear field with locator: password locatorType: id
+09/05/2018 03:13:56 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/05/2018 03:13:56 PM - Driver - INFO: Sent data on element with locator: password locatorType: id
+09/05/2018 03:13:56 PM - Driver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
+09/05/2018 03:14:01 PM - Driver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+09/05/2018 03:14:01 PM - Driver - INFO: Waiting for maximum :: 5 :: seconds for element to be clickable
+09/05/2018 03:14:01 PM - Driver - INFO: Element appeared on the web page
+09/05/2018 03:14:01 PM - Driver - INFO: Element found with locator: userAcctTab_MainMenu and  locatorType: id
+09/05/2018 03:14:01 PM - Driver - INFO: Element present with locator: userAcctTab_MainMenu locatorType: id
+09/18/2018 07:21:56 PM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/18/2018 07:22:05 PM - Driver - INFO: Clicked on element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/18/2018 07:22:05 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/18/2018 07:22:05 PM - Driver - INFO: Clear field with locator: username locatorType: id
+09/18/2018 07:22:05 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/18/2018 07:22:05 PM - Driver - INFO: Sent data on element with locator: username locatorType: id
+09/18/2018 07:22:05 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/18/2018 07:22:05 PM - Driver - INFO: Clear field with locator: password locatorType: id
+09/18/2018 07:22:05 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/18/2018 07:22:05 PM - Driver - INFO: Sent data on element with locator: password locatorType: id
+09/18/2018 07:22:05 PM - Driver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
+09/18/2018 07:22:16 PM - Driver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+09/18/2018 07:22:16 PM - TestLogin - INFO: test_invalidLogin started
+09/18/2018 07:22:16 PM - Driver - INFO: Element found with locator: userAcctTab_MainMenu and  locatorType: id
+09/18/2018 07:22:22 PM - Driver - INFO: Clicked on element with locator: userAcctTab_MainMenu locatorType: id
+09/18/2018 07:22:22 PM - Driver - INFO: Element found with locator: //li[@id='dd-my-account']//a[text()='Sign Out'] and  locatorType: xpath
+09/18/2018 07:22:30 PM - Driver - INFO: Clicked on element with locator: //li[@id='dd-my-account']//a[text()='Sign Out'] locatorType: xpath
+09/18/2018 07:22:30 PM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/18/2018 07:22:31 PM - Driver - INFO: Clicked on element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/18/2018 07:22:31 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/18/2018 07:22:31 PM - Driver - INFO: Clear field with locator: username locatorType: id
+09/18/2018 07:22:31 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/18/2018 07:22:31 PM - Driver - INFO: Sent data on element with locator: username locatorType: id
+09/18/2018 07:22:31 PM - Driver - INFO: Element not found with locator: password and  locatorType: id
+09/18/2018 07:22:31 PM - TestLogin - INFO: test_validLogin started
+09/18/2018 07:22:31 PM - Driver - INFO: Element not found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/18/2018 07:22:31 PM - Driver - INFO: Cannot click on the element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/18/2018 07:22:31 PM - Driver - INFO: Element not found with locator: username and  locatorType: id
+09/19/2018 11:52:38 AM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/19/2018 11:52:41 AM - Driver - INFO: Clicked on element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/19/2018 11:52:41 AM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/19/2018 11:52:41 AM - Driver - INFO: Clear field with locator: username locatorType: id
+09/19/2018 11:52:41 AM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/19/2018 11:52:41 AM - Driver - INFO: Sent data on element with locator: username locatorType: id
+09/19/2018 11:52:41 AM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/19/2018 11:52:41 AM - Driver - INFO: Clear field with locator: password locatorType: id
+09/19/2018 11:52:41 AM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/19/2018 11:52:41 AM - Driver - INFO: Sent data on element with locator: password locatorType: id
+09/19/2018 11:52:41 AM - Driver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
+09/19/2018 11:52:48 AM - Driver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+09/19/2018 11:52:48 AM - TestLogin - INFO: test_validLogin started
+09/19/2018 11:52:48 AM - Driver - INFO: Element found with locator: userAcctTab_MainMenu and  locatorType: id
+09/19/2018 11:52:48 AM - Driver - INFO: Clicked on element with locator: userAcctTab_MainMenu locatorType: id
+09/19/2018 11:52:48 AM - Driver - INFO: Element found with locator: //li[@id='dd-my-account']//a[text()='Sign Out'] and  locatorType: xpath
+09/19/2018 11:52:51 AM - Driver - INFO: Clicked on element with locator: //li[@id='dd-my-account']//a[text()='Sign Out'] locatorType: xpath
+09/19/2018 11:52:51 AM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/19/2018 11:52:52 AM - Driver - INFO: Clicked on element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/19/2018 11:52:52 AM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/19/2018 11:52:52 AM - Driver - INFO: Clear field with locator: username locatorType: id
+09/19/2018 11:52:52 AM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/19/2018 11:52:53 AM - Driver - INFO: Sent data on element with locator: username locatorType: id
+09/19/2018 11:52:53 AM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/19/2018 11:52:53 AM - Driver - INFO: Clear field with locator: password locatorType: id
+09/19/2018 11:52:53 AM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/19/2018 11:52:53 AM - Driver - INFO: Sent data on element with locator: password locatorType: id
+09/19/2018 11:52:53 AM - Driver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
+09/19/2018 11:52:58 AM - Driver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+09/19/2018 11:52:58 AM - Driver - INFO: Waiting for maximum :: 5 :: seconds for element to be clickable
+09/19/2018 11:52:58 AM - Driver - INFO: Element appeared on the web page
+09/19/2018 11:52:58 AM - Driver - INFO: Element found with locator: userAcctTab_MainMenu and  locatorType: id
+09/19/2018 11:52:58 AM - Driver - INFO: Element present with locator: userAcctTab_MainMenu locatorType: id
+09/27/2018 12:05:43 PM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/27/2018 12:05:46 PM - Driver - INFO: Clicked on element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/27/2018 12:05:46 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 12:05:46 PM - Driver - INFO: Clear field with locator: username locatorType: id
+09/27/2018 12:05:46 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 12:05:46 PM - Driver - INFO: Sent data on element with locator: username locatorType: id
+09/27/2018 12:05:46 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 12:05:46 PM - Driver - INFO: Clear field with locator: password locatorType: id
+09/27/2018 12:05:46 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 12:05:46 PM - Driver - INFO: Sent data on element with locator: password locatorType: id
+09/27/2018 12:05:46 PM - Driver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
+09/27/2018 12:05:52 PM - Driver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+09/27/2018 12:05:52 PM - TestLogin - INFO: test_invalidLogin started
+09/27/2018 12:05:52 PM - Driver - INFO: Element found with locator: userAcctTab_MainMenu and  locatorType: id
+09/27/2018 12:05:52 PM - Driver - INFO: Clicked on element with locator: userAcctTab_MainMenu locatorType: id
+09/27/2018 12:05:52 PM - Driver - INFO: Element found with locator: //li[@id='dd-my-account']//a[text()='Sign Out'] and  locatorType: xpath
+09/27/2018 12:05:56 PM - Driver - INFO: Clicked on element with locator: //li[@id='dd-my-account']//a[text()='Sign Out'] locatorType: xpath
+09/27/2018 12:05:56 PM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/27/2018 12:05:57 PM - Driver - INFO: Clicked on element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/27/2018 12:05:58 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 12:05:58 PM - Driver - INFO: Clear field with locator: username locatorType: id
+09/27/2018 12:05:58 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 12:05:58 PM - Driver - INFO: Sent data on element with locator: username locatorType: id
+09/27/2018 12:05:58 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 12:05:58 PM - Driver - INFO: Clear field with locator: password locatorType: id
+09/27/2018 12:05:58 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 12:05:58 PM - Driver - INFO: Sent data on element with locator: password locatorType: id
+09/27/2018 12:05:58 PM - Driver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
+09/27/2018 12:05:59 PM - Driver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+09/27/2018 12:05:59 PM - Driver - INFO: Element found with locator: //div[@id='sign-in']//li[contains(text(),'The username or password you entered is incorrect')] and  locatorType: xpath
+09/27/2018 12:05:59 PM - Driver - INFO: Element present with locator: //div[@id='sign-in']//li[contains(text(),'The username or password you entered is incorrect')] locatorType: xpath
+09/27/2018 12:05:59 PM - TestLogin - INFO: test_validLogin started
+09/27/2018 12:05:59 PM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/27/2018 12:05:59 PM - Driver - INFO: Cannot click on the element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/27/2018 12:06:00 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 12:06:00 PM - Driver - INFO: Clear field with locator: username locatorType: id
+09/27/2018 12:06:00 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 12:06:00 PM - Driver - INFO: Sent data on element with locator: username locatorType: id
+09/27/2018 12:06:00 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 12:06:00 PM - Driver - INFO: Clear field with locator: password locatorType: id
+09/27/2018 12:06:00 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 12:06:00 PM - Driver - INFO: Sent data on element with locator: password locatorType: id
+09/27/2018 12:06:00 PM - Driver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
+09/27/2018 12:06:03 PM - Driver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+09/27/2018 12:06:03 PM - Driver - INFO: Waiting for maximum :: 5 :: seconds for element to be clickable
+09/27/2018 12:06:03 PM - Driver - INFO: Element appeared on the web page
+09/27/2018 12:06:03 PM - Driver - INFO: Element found with locator: userAcctTab_MainMenu and  locatorType: id
+09/27/2018 12:06:03 PM - Driver - INFO: Element present with locator: userAcctTab_MainMenu locatorType: id
+09/27/2018 12:21:55 PM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/27/2018 12:21:57 PM - Driver - INFO: Clicked on element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/27/2018 12:21:57 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 12:21:57 PM - Driver - INFO: Clear field with locator: username locatorType: id
+09/27/2018 12:21:57 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 12:21:57 PM - Driver - INFO: Sent data on element with locator: username locatorType: id
+09/27/2018 12:21:57 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 12:21:57 PM - Driver - INFO: Clear field with locator: password locatorType: id
+09/27/2018 12:21:57 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 12:21:57 PM - Driver - INFO: Sent data on element with locator: password locatorType: id
+09/27/2018 12:21:57 PM - Driver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
+09/27/2018 12:22:01 PM - Driver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+09/27/2018 12:22:01 PM - TestLogin - INFO: test_invalidLogin started
+09/27/2018 12:22:01 PM - Driver - INFO: Element found with locator: userAcctTab_MainMenu and  locatorType: id
+09/27/2018 12:22:02 PM - Driver - INFO: Clicked on element with locator: userAcctTab_MainMenu locatorType: id
+09/27/2018 12:22:02 PM - Driver - INFO: Element found with locator: //li[@id='dd-my-account']//a[text()='Sign Out'] and  locatorType: xpath
+09/27/2018 12:22:04 PM - Driver - INFO: Clicked on element with locator: //li[@id='dd-my-account']//a[text()='Sign Out'] locatorType: xpath
+09/27/2018 12:22:04 PM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/27/2018 12:22:06 PM - Driver - INFO: Clicked on element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/27/2018 12:22:06 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 12:22:06 PM - Driver - INFO: Clear field with locator: username locatorType: id
+09/27/2018 12:22:06 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 12:22:06 PM - Driver - INFO: Sent data on element with locator: username locatorType: id
+09/27/2018 12:22:06 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 12:22:06 PM - Driver - INFO: Clear field with locator: password locatorType: id
+09/27/2018 12:22:06 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 12:22:06 PM - Driver - INFO: Sent data on element with locator: password locatorType: id
+09/27/2018 12:22:06 PM - Driver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
+09/27/2018 12:22:08 PM - Driver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+09/27/2018 12:22:08 PM - Driver - INFO: Element found with locator: //div[@id='sign-in']//li[contains(text(),'The username or password you entered is incorrect')] and  locatorType: xpath
+09/27/2018 12:22:08 PM - Driver - INFO: Element present with locator: //div[@id='sign-in']//li[contains(text(),'The username or password you entered is incorrect')] locatorType: xpath
+09/27/2018 12:22:08 PM - TestLogin - INFO: test_validLogin started
+09/27/2018 12:22:08 PM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/27/2018 12:22:08 PM - Driver - INFO: Cannot click on the element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/27/2018 12:22:08 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 12:22:08 PM - Driver - INFO: Clear field with locator: username locatorType: id
+09/27/2018 12:22:08 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 12:22:08 PM - Driver - INFO: Sent data on element with locator: username locatorType: id
+09/27/2018 12:22:08 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 12:22:08 PM - Driver - INFO: Clear field with locator: password locatorType: id
+09/27/2018 12:22:08 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 12:22:08 PM - Driver - INFO: Sent data on element with locator: password locatorType: id
+09/27/2018 12:22:08 PM - Driver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
+09/27/2018 12:22:11 PM - Driver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+09/27/2018 12:22:11 PM - Driver - INFO: Waiting for maximum :: 5 :: seconds for element to be clickable
+09/27/2018 12:22:11 PM - Driver - INFO: Element appeared on the web page
+09/27/2018 12:22:11 PM - Driver - INFO: Element found with locator: userAcctTab_MainMenu and  locatorType: id
+09/27/2018 12:22:11 PM - Driver - INFO: Element present with locator: userAcctTab_MainMenu locatorType: id
+09/27/2018 12:43:00 PM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/27/2018 12:43:03 PM - Driver - INFO: Clicked on element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/27/2018 12:43:03 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 12:43:03 PM - Driver - INFO: Clear field with locator: username locatorType: id
+09/27/2018 12:43:03 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 12:43:03 PM - Driver - INFO: Sent data on element with locator: username locatorType: id
+09/27/2018 12:43:03 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 12:43:03 PM - Driver - INFO: Clear field with locator: password locatorType: id
+09/27/2018 12:43:03 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 12:43:03 PM - Driver - INFO: Sent data on element with locator: password locatorType: id
+09/27/2018 12:43:03 PM - Driver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
+09/27/2018 12:43:08 PM - Driver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+09/27/2018 12:43:08 PM - TestLogin - INFO: test_invalidLogin started
+09/27/2018 12:43:08 PM - Driver - INFO: Element found with locator: userAcctTab_MainMenu and  locatorType: id
+09/27/2018 12:43:08 PM - Driver - INFO: Clicked on element with locator: userAcctTab_MainMenu locatorType: id
+09/27/2018 12:43:08 PM - Driver - INFO: Element found with locator: //li[@id='dd-my-account']//a[text()='Sign Out'] and  locatorType: xpath
+09/27/2018 12:43:12 PM - Driver - INFO: Clicked on element with locator: //li[@id='dd-my-account']//a[text()='Sign Out'] locatorType: xpath
+09/27/2018 12:43:12 PM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/27/2018 12:43:14 PM - Driver - INFO: Clicked on element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/27/2018 12:43:14 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 12:43:14 PM - Driver - INFO: Clear field with locator: username locatorType: id
+09/27/2018 12:43:14 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 12:43:14 PM - Driver - INFO: Sent data on element with locator: username locatorType: id
+09/27/2018 12:43:14 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 12:43:14 PM - Driver - INFO: Clear field with locator: password locatorType: id
+09/27/2018 12:43:14 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 12:43:14 PM - Driver - INFO: Sent data on element with locator: password locatorType: id
+09/27/2018 12:43:14 PM - Driver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
+09/27/2018 12:43:16 PM - Driver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+09/27/2018 12:43:16 PM - Driver - INFO: Element found with locator: //div[@id='sign-in']//li[contains(text(),'The username or password you entered is incorrect')] and  locatorType: xpath
+09/27/2018 12:43:16 PM - Driver - INFO: Element present with locator: //div[@id='sign-in']//li[contains(text(),'The username or password you entered is incorrect')] locatorType: xpath
+09/27/2018 12:43:16 PM - TestLogin - INFO: test_validLogin started
+09/27/2018 12:43:16 PM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/27/2018 12:43:16 PM - Driver - INFO: Cannot click on the element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/27/2018 12:43:16 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 12:43:16 PM - Driver - INFO: Clear field with locator: username locatorType: id
+09/27/2018 12:43:16 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 12:43:16 PM - Driver - INFO: Sent data on element with locator: username locatorType: id
+09/27/2018 12:43:16 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 12:43:16 PM - Driver - INFO: Clear field with locator: password locatorType: id
+09/27/2018 12:43:16 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 12:43:16 PM - Driver - INFO: Sent data on element with locator: password locatorType: id
+09/27/2018 12:43:16 PM - Driver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
+09/27/2018 12:43:19 PM - Driver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+09/27/2018 12:43:19 PM - Driver - INFO: Waiting for maximum :: 5 :: seconds for element to be clickable
+09/27/2018 12:43:19 PM - Driver - INFO: Element appeared on the web page
+09/27/2018 12:43:19 PM - Driver - INFO: Element found with locator: userAcctTab_MainMenu and  locatorType: id
+09/27/2018 12:43:19 PM - Driver - INFO: Element present with locator: userAcctTab_MainMenu locatorType: id
+09/27/2018 01:28:44 PM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/27/2018 01:28:47 PM - Driver - INFO: Clicked on element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/27/2018 01:28:47 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 01:28:47 PM - Driver - INFO: Clear field with locator: username locatorType: id
+09/27/2018 01:28:47 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 01:28:48 PM - Driver - INFO: Sent data on element with locator: username locatorType: id
+09/27/2018 01:28:48 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 01:28:48 PM - Driver - INFO: Clear field with locator: password locatorType: id
+09/27/2018 01:28:48 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 01:28:48 PM - Driver - INFO: Sent data on element with locator: password locatorType: id
+09/27/2018 01:28:48 PM - Driver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
+09/27/2018 01:28:54 PM - Driver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+09/27/2018 01:28:54 PM - TestLogin - INFO: test_invalidLogin started
+09/27/2018 01:28:54 PM - Driver - INFO: Element found with locator: userAcctTab_MainMenu and  locatorType: id
+09/27/2018 01:28:54 PM - Driver - INFO: Clicked on element with locator: userAcctTab_MainMenu locatorType: id
+09/27/2018 01:28:54 PM - Driver - INFO: Element found with locator: //li[@id='dd-my-account']//a[text()='Sign Out'] and  locatorType: xpath
+09/27/2018 01:28:57 PM - Driver - INFO: Clicked on element with locator: //li[@id='dd-my-account']//a[text()='Sign Out'] locatorType: xpath
+09/27/2018 01:28:57 PM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/27/2018 01:28:58 PM - Driver - INFO: Clicked on element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/27/2018 01:28:58 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 01:28:58 PM - Driver - INFO: Clear field with locator: username locatorType: id
+09/27/2018 01:28:59 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 01:28:59 PM - Driver - INFO: Sent data on element with locator: username locatorType: id
+09/27/2018 01:28:59 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 01:28:59 PM - Driver - INFO: Clear field with locator: password locatorType: id
+09/27/2018 01:28:59 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 01:28:59 PM - Driver - INFO: Sent data on element with locator: password locatorType: id
+09/27/2018 01:28:59 PM - Driver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
+09/27/2018 01:29:00 PM - Driver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+09/27/2018 01:29:00 PM - Driver - INFO: Element found with locator: //div[@id='sign-in']//li[contains(text(),'The username or password you entered is incorrect')] and  locatorType: xpath
+09/27/2018 01:29:00 PM - Driver - INFO: Element present with locator: //div[@id='sign-in']//li[contains(text(),'The username or password you entered is incorrect')] locatorType: xpath
+09/27/2018 01:29:00 PM - TestLogin - INFO: test_validLogin started
+09/27/2018 01:29:00 PM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/27/2018 01:29:00 PM - Driver - INFO: Cannot click on the element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/27/2018 01:29:00 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 01:29:00 PM - Driver - INFO: Clear field with locator: username locatorType: id
+09/27/2018 01:29:00 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 01:29:00 PM - Driver - INFO: Sent data on element with locator: username locatorType: id
+09/27/2018 01:29:00 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 01:29:00 PM - Driver - INFO: Clear field with locator: password locatorType: id
+09/27/2018 01:29:00 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 01:29:00 PM - Driver - INFO: Sent data on element with locator: password locatorType: id
+09/27/2018 01:29:00 PM - Driver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
+09/27/2018 01:29:05 PM - Driver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+09/27/2018 01:29:05 PM - Driver - INFO: Waiting for maximum :: 5 :: seconds for element to be clickable
+09/27/2018 01:29:05 PM - Driver - INFO: Element appeared on the web page
+09/27/2018 01:29:05 PM - Driver - INFO: Element found with locator: userAcctTab_MainMenu and  locatorType: id
+09/27/2018 01:29:05 PM - Driver - INFO: Element present with locator: userAcctTab_MainMenu locatorType: id
+09/27/2018 02:10:39 PM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/27/2018 02:10:42 PM - Driver - INFO: Clicked on element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/27/2018 02:10:42 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 02:10:42 PM - Driver - INFO: Clear field with locator: username locatorType: id
+09/27/2018 02:10:42 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 02:10:42 PM - Driver - INFO: Sent data on element with locator: username locatorType: id
+09/27/2018 02:10:42 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 02:10:42 PM - Driver - INFO: Clear field with locator: password locatorType: id
+09/27/2018 02:10:42 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 02:10:42 PM - Driver - INFO: Sent data on element with locator: password locatorType: id
+09/27/2018 02:10:42 PM - Driver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
+09/27/2018 02:10:46 PM - Driver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+09/27/2018 02:10:46 PM - TestLogin - INFO: test_invalidLogin started
+09/27/2018 02:10:46 PM - Driver - INFO: Element found with locator: userAcctTab_MainMenu and  locatorType: id
+09/27/2018 02:10:47 PM - Driver - INFO: Clicked on element with locator: userAcctTab_MainMenu locatorType: id
+09/27/2018 02:10:47 PM - Driver - INFO: Element found with locator: //li[@id='dd-my-account']//a[text()='Sign Out'] and  locatorType: xpath
+09/27/2018 02:10:49 PM - Driver - INFO: Clicked on element with locator: //li[@id='dd-my-account']//a[text()='Sign Out'] locatorType: xpath
+09/27/2018 02:10:49 PM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/27/2018 02:10:50 PM - Driver - INFO: Clicked on element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/27/2018 02:10:50 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 02:10:50 PM - Driver - INFO: Clear field with locator: username locatorType: id
+09/27/2018 02:10:50 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 02:10:51 PM - Driver - INFO: Sent data on element with locator: username locatorType: id
+09/27/2018 02:10:51 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 02:10:51 PM - Driver - INFO: Clear field with locator: password locatorType: id
+09/27/2018 02:10:51 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 02:10:51 PM - Driver - INFO: Sent data on element with locator: password locatorType: id
+09/27/2018 02:10:51 PM - Driver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
+09/27/2018 02:10:52 PM - Driver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+09/27/2018 02:10:52 PM - Driver - INFO: Element found with locator: //div[@id='sign-in']//li[contains(text(),'The username or password you entered is incorrect')] and  locatorType: xpath
+09/27/2018 02:10:52 PM - Driver - INFO: Element present with locator: //div[@id='sign-in']//li[contains(text(),'The username or password you entered is incorrect')] locatorType: xpath
+09/27/2018 02:10:52 PM - TestLogin - INFO: test_validLogin started
+09/27/2018 02:10:52 PM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/27/2018 02:10:52 PM - Driver - INFO: Cannot click on the element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/27/2018 02:10:52 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 02:10:52 PM - Driver - INFO: Clear field with locator: username locatorType: id
+09/27/2018 02:10:52 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 02:10:52 PM - Driver - INFO: Sent data on element with locator: username locatorType: id
+09/27/2018 02:10:52 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 02:10:52 PM - Driver - INFO: Clear field with locator: password locatorType: id
+09/27/2018 02:10:52 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 02:10:52 PM - Driver - INFO: Sent data on element with locator: password locatorType: id
+09/27/2018 02:10:52 PM - Driver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
+09/27/2018 02:10:58 PM - Driver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+09/27/2018 02:10:58 PM - Driver - INFO: Waiting for maximum :: 5 :: seconds for element to be clickable
+09/27/2018 02:10:58 PM - Driver - INFO: Element appeared on the web page
+09/27/2018 02:10:58 PM - Driver - INFO: Element found with locator: userAcctTab_MainMenu and  locatorType: id
+09/27/2018 02:10:58 PM - Driver - INFO: Element present with locator: userAcctTab_MainMenu locatorType: id
+09/27/2018 02:13:10 PM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/27/2018 02:13:12 PM - Driver - INFO: Clicked on element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/27/2018 02:13:12 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 02:13:12 PM - Driver - INFO: Clear field with locator: username locatorType: id
+09/27/2018 02:13:12 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 02:13:12 PM - Driver - INFO: Sent data on element with locator: username locatorType: id
+09/27/2018 02:13:12 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 02:13:13 PM - Driver - INFO: Clear field with locator: password locatorType: id
+09/27/2018 02:13:13 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 02:13:13 PM - Driver - INFO: Sent data on element with locator: password locatorType: id
+09/27/2018 02:13:13 PM - Driver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
+09/27/2018 02:13:16 PM - Driver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+09/27/2018 02:13:16 PM - TestLogin - INFO: test_invalidLogin started
+09/27/2018 02:13:16 PM - Driver - INFO: Element found with locator: userAcctTab_MainMenu and  locatorType: id
+09/27/2018 02:13:17 PM - Driver - INFO: Clicked on element with locator: userAcctTab_MainMenu locatorType: id
+09/27/2018 02:13:17 PM - Driver - INFO: Element found with locator: //li[@id='dd-my-account']//a[text()='Sign Out'] and  locatorType: xpath
+09/27/2018 02:13:20 PM - Driver - INFO: Clicked on element with locator: //li[@id='dd-my-account']//a[text()='Sign Out'] locatorType: xpath
+09/27/2018 02:13:20 PM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/27/2018 02:13:21 PM - Driver - INFO: Clicked on element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/27/2018 02:13:21 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 02:13:21 PM - Driver - INFO: Clear field with locator: username locatorType: id
+09/27/2018 02:13:21 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 02:13:21 PM - Driver - INFO: Sent data on element with locator: username locatorType: id
+09/27/2018 02:13:21 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 02:13:21 PM - Driver - INFO: Clear field with locator: password locatorType: id
+09/27/2018 02:13:21 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 02:13:21 PM - Driver - INFO: Sent data on element with locator: password locatorType: id
+09/27/2018 02:13:21 PM - Driver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
+09/27/2018 02:13:23 PM - Driver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+09/27/2018 02:13:23 PM - Driver - INFO: Element found with locator: //div[@id='sign-in']//li[contains(text(),'The username or password you entered is incorrect')] and  locatorType: xpath
+09/27/2018 02:13:23 PM - Driver - INFO: Element present with locator: //div[@id='sign-in']//li[contains(text(),'The username or password you entered is incorrect')] locatorType: xpath
+09/27/2018 02:13:23 PM - TestLogin - INFO: test_validLogin started
+09/27/2018 02:13:23 PM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/27/2018 02:13:23 PM - Driver - INFO: Cannot click on the element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/27/2018 02:13:23 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 02:13:23 PM - Driver - INFO: Clear field with locator: username locatorType: id
+09/27/2018 02:13:23 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 02:13:23 PM - Driver - INFO: Sent data on element with locator: username locatorType: id
+09/27/2018 02:13:23 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 02:13:23 PM - Driver - INFO: Clear field with locator: password locatorType: id
+09/27/2018 02:13:23 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 02:13:23 PM - Driver - INFO: Sent data on element with locator: password locatorType: id
+09/27/2018 02:13:23 PM - Driver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
+09/27/2018 02:13:28 PM - Driver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+09/27/2018 02:13:28 PM - Driver - INFO: Waiting for maximum :: 5 :: seconds for element to be clickable
+09/27/2018 02:13:28 PM - Driver - INFO: Element appeared on the web page
+09/27/2018 02:13:28 PM - Driver - INFO: Element found with locator: userAcctTab_MainMenu and  locatorType: id
+09/27/2018 02:13:28 PM - Driver - INFO: Element present with locator: userAcctTab_MainMenu locatorType: id
+09/27/2018 02:33:08 PM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/27/2018 02:33:10 PM - Driver - INFO: Clicked on element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/27/2018 02:33:10 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 02:33:10 PM - Driver - INFO: Clear field with locator: username locatorType: id
+09/27/2018 02:33:10 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 02:33:11 PM - Driver - INFO: Sent data on element with locator: username locatorType: id
+09/27/2018 02:33:11 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 02:33:11 PM - Driver - INFO: Clear field with locator: password locatorType: id
+09/27/2018 02:33:11 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 02:33:11 PM - Driver - INFO: Sent data on element with locator: password locatorType: id
+09/27/2018 02:33:11 PM - Driver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
+09/27/2018 02:33:16 PM - Driver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+09/27/2018 02:33:16 PM - TestLogin - INFO: test_invalidLogin started
+09/27/2018 02:33:16 PM - Driver - INFO: Element found with locator: userAcctTab_MainMenu and  locatorType: id
+09/27/2018 02:33:16 PM - Driver - INFO: Clicked on element with locator: userAcctTab_MainMenu locatorType: id
+09/27/2018 02:33:16 PM - Driver - INFO: Element found with locator: //li[@id='dd-my-account']//a[text()='Sign Out'] and  locatorType: xpath
+09/27/2018 02:33:19 PM - Driver - INFO: Clicked on element with locator: //li[@id='dd-my-account']//a[text()='Sign Out'] locatorType: xpath
+09/27/2018 02:33:19 PM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/27/2018 02:33:20 PM - Driver - INFO: Clicked on element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/27/2018 02:33:20 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 02:33:20 PM - Driver - INFO: Clear field with locator: username locatorType: id
+09/27/2018 02:33:20 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 02:33:20 PM - Driver - INFO: Sent data on element with locator: username locatorType: id
+09/27/2018 02:33:20 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 02:33:21 PM - Driver - INFO: Clear field with locator: password locatorType: id
+09/27/2018 02:33:21 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 02:33:21 PM - Driver - INFO: Sent data on element with locator: password locatorType: id
+09/27/2018 02:33:21 PM - Driver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
+09/27/2018 02:33:23 PM - Driver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+09/27/2018 02:33:23 PM - Driver - INFO: Element found with locator: //div[@id='sign-in']//li[contains(text(),'The username or password you entered is incorrect')] and  locatorType: xpath
+09/27/2018 02:33:23 PM - Driver - INFO: Element present with locator: //div[@id='sign-in']//li[contains(text(),'The username or password you entered is incorrect')] locatorType: xpath
+09/27/2018 02:33:23 PM - TestLogin - INFO: test_validLogin started
+09/27/2018 02:33:23 PM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/27/2018 02:33:23 PM - Driver - INFO: Cannot click on the element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/27/2018 02:33:23 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 02:33:23 PM - Driver - INFO: Clear field with locator: username locatorType: id
+09/27/2018 02:33:23 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 02:33:23 PM - Driver - INFO: Sent data on element with locator: username locatorType: id
+09/27/2018 02:33:23 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 02:33:23 PM - Driver - INFO: Clear field with locator: password locatorType: id
+09/27/2018 02:33:23 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 02:33:23 PM - Driver - INFO: Sent data on element with locator: password locatorType: id
+09/27/2018 02:33:23 PM - Driver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
+09/27/2018 02:33:26 PM - Driver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+09/27/2018 02:33:26 PM - Driver - INFO: Waiting for maximum :: 5 :: seconds for element to be clickable
+09/27/2018 02:33:26 PM - Driver - INFO: Element appeared on the web page
+09/27/2018 02:33:26 PM - Driver - INFO: Element found with locator: userAcctTab_MainMenu and  locatorType: id
+09/27/2018 02:33:26 PM - Driver - INFO: Element present with locator: userAcctTab_MainMenu locatorType: id
+09/27/2018 02:41:52 PM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/27/2018 02:41:55 PM - Driver - INFO: Clicked on element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/27/2018 02:41:55 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 02:41:55 PM - Driver - INFO: Clear field with locator: username locatorType: id
+09/27/2018 02:41:55 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 02:41:55 PM - Driver - INFO: Sent data on element with locator: username locatorType: id
+09/27/2018 02:41:55 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 02:41:55 PM - Driver - INFO: Clear field with locator: password locatorType: id
+09/27/2018 02:41:55 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 02:41:55 PM - Driver - INFO: Sent data on element with locator: password locatorType: id
+09/27/2018 02:41:55 PM - Driver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
+09/27/2018 02:41:59 PM - Driver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+09/27/2018 02:41:59 PM - TestLogin - INFO: test_invalidLogin started
+09/27/2018 02:41:59 PM - Driver - INFO: Element found with locator: userAcctTab_MainMenu and  locatorType: id
+09/27/2018 02:41:59 PM - Driver - INFO: Clicked on element with locator: userAcctTab_MainMenu locatorType: id
+09/27/2018 02:41:59 PM - Driver - INFO: Element found with locator: //li[@id='dd-my-account']//a[text()='Sign Out'] and  locatorType: xpath
+09/27/2018 02:42:02 PM - Driver - INFO: Clicked on element with locator: //li[@id='dd-my-account']//a[text()='Sign Out'] locatorType: xpath
+09/27/2018 02:42:02 PM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/27/2018 02:42:04 PM - Driver - INFO: Clicked on element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/27/2018 02:42:04 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 02:42:04 PM - Driver - INFO: Clear field with locator: username locatorType: id
+09/27/2018 02:42:04 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 02:42:04 PM - Driver - INFO: Sent data on element with locator: username locatorType: id
+09/27/2018 02:42:04 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 02:42:04 PM - Driver - INFO: Clear field with locator: password locatorType: id
+09/27/2018 02:42:04 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 02:42:04 PM - Driver - INFO: Sent data on element with locator: password locatorType: id
+09/27/2018 02:42:04 PM - Driver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
+09/27/2018 02:42:05 PM - Driver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+09/27/2018 02:42:05 PM - Driver - INFO: Element found with locator: //div[@id='sign-in']//li[contains(text(),'The username or password you entered is incorrect')] and  locatorType: xpath
+09/27/2018 02:42:05 PM - Driver - INFO: Element present with locator: //div[@id='sign-in']//li[contains(text(),'The username or password you entered is incorrect')] locatorType: xpath
+09/27/2018 02:42:05 PM - TestLogin - INFO: test_validLogin started
+09/27/2018 02:42:05 PM - Driver - INFO: Element found with locator: //a[text()='LOG IN'] and  locatorType: xpath
+09/27/2018 02:42:05 PM - Driver - INFO: Cannot click on the element with locator: //a[text()='LOG IN'] locatorType: xpath
+09/27/2018 02:42:05 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 02:42:05 PM - Driver - INFO: Clear field with locator: username locatorType: id
+09/27/2018 02:42:05 PM - Driver - INFO: Element found with locator: username and  locatorType: id
+09/27/2018 02:42:06 PM - Driver - INFO: Sent data on element with locator: username locatorType: id
+09/27/2018 02:42:06 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 02:42:06 PM - Driver - INFO: Clear field with locator: password locatorType: id
+09/27/2018 02:42:06 PM - Driver - INFO: Element found with locator: password and  locatorType: id
+09/27/2018 02:42:06 PM - Driver - INFO: Sent data on element with locator: password locatorType: id
+09/27/2018 02:42:06 PM - Driver - INFO: Element found with locator: //button[@type='submit'] and  locatorType: xpath
+09/27/2018 02:42:09 PM - Driver - INFO: Clicked on element with locator: //button[@type='submit'] locatorType: xpath
+09/27/2018 02:42:09 PM - Driver - INFO: Waiting for maximum :: 5 :: seconds for element to be clickable
+09/27/2018 02:42:09 PM - Driver - INFO: Element appeared on the web page
+09/27/2018 02:42:09 PM - Driver - INFO: Element found with locator: userAcctTab_MainMenu and  locatorType: id
+09/27/2018 02:42:09 PM - Driver - INFO: Element present with locator: userAcctTab_MainMenu locatorType: id

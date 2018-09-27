@@ -1,0 +1,18 @@
+"Status","Name","Duration in ms","Description"
+"passed","testcases.test_login.TestLogin.test_invalidLogin","28611","
+
+          This test case  is check invalid login
+          assert true if result is true.
+
+        * :param self: current instance of class
+
+        "
+"passed","testcases.test_login.TestLogin.test_validLogin","4531","
+
+          This test case check login successfully or not
+          assert true if result is true.
+
+        * :param self: current instance of class
+
+
+        "

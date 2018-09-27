@@ -1,0 +1,37 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "IB-PUNE-PC-071",
+    "children" : [ {
+      "name" : "12704-MainThread",
+      "children" : [ {
+        "name" : "TestLogin.test_invalidLogin",
+        "uid" : "9aab69d4ea9c9ec6",
+        "parentUid" : "458c31792df883abfd3f690877e005ac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1538037775019,
+          "stop" : 1538037803630,
+          "duration" : 28611
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestLogin.test_validLogin",
+        "uid" : "335e327adabb0644",
+        "parentUid" : "458c31792df883abfd3f690877e005ac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1538037803630,
+          "stop" : 1538037808161,
+          "duration" : 4531
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "458c31792df883abfd3f690877e005ac"
+    } ],
+    "uid" : "e3594bfef14914567cd31e6ae114ee18"
+  } ]
+}

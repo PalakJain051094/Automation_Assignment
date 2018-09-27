@@ -1,0 +1,97 @@
+{
+  "uid" : "9aab69d4ea9c9ec6",
+  "name" : "TestLogin.test_invalidLogin",
+  "fullName" : "testcases.test_login.TestLogin.test_invalidLogin",
+  "historyId" : "5903e46b0470be3a835e1cf124f3c793",
+  "time" : {
+    "start" : 1538037775019,
+    "stop" : 1538037803630,
+    "duration" : 28611
+  },
+  "description" : "\n\n          This test case  is check invalid login\n          assert true if result is true.\n\n        * :param self: current instance of class\n\n        ",
+  "descriptionHtml" : "<pre><code>      This test case  is check invalid login\n      assert true if result is true.\n\n    * :param self: current instance of class\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "invalid login",
+      "time" : {
+        "start" : 1538037796975,
+        "stop" : 1538037803630,
+        "duration" : 6655
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "cb987331959351b9",
+      "name" : "Captured log setup",
+      "source" : "cb987331959351b9.txt",
+      "type" : "text/plain",
+      "size" : 1233
+    }, {
+      "uid" : "5701361ce8524a45",
+      "name" : "Captured log call",
+      "source" : "5701361ce8524a45.txt",
+      "type" : "text/plain",
+      "size" : 2170
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "IB-PUNE-PC-071"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "12704-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcases.test_login"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.test_login"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestLogin.test_invalidLogin"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9aab69d4ea9c9ec6.json",
+  "parameterValues" : [ ]
+}
