@@ -9,7 +9,7 @@ from base.base_page import BasePage
 class CreateSurvey(BasePage):
     """
 
-    This class inhert BasePage class and has methods to create survey.
+    This class inherit BasePage class and has methods to create survey.
 
     """
 

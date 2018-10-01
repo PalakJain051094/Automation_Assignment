@@ -4,6 +4,7 @@ from pages.login_page import LoginPage
 from pages.createsurvey import CreateSurvey
 from utilities.test_data import*
 
+
 @pytest.yield_fixture(scope="class")
 def get_driver():
     """

@@ -4,8 +4,10 @@ import pytest
 import utilities.custom_logger as cl
 from utilities.test_data import *
 import logging
+import allure
 
-
+@allure.story("test login class")
+@allure.feature("tests")
 @pytest.mark.usefixtures("get_driver")
 class TestLogin(unittest.TestCase):
     """
@@ -13,6 +15,7 @@ class TestLogin(unittest.TestCase):
     """
     log = cl.customLogger(logging.DEBUG)
 
+    @pytest.allure.step("objectsteup")
     @pytest.fixture(autouse=True)
     def objectSetup(self, get_driver):
         """
@@ -25,6 +28,8 @@ class TestLogin(unittest.TestCase):
         """
         self.lp = LoginPage(get_driver)
 
+    @allure.testcase("in valid login testcase")
+    @pytest.allure.step("invalid login")
     @pytest.mark.run(order=1)
     def test_invalidLogin(self):
         """
@@ -41,6 +46,7 @@ class TestLogin(unittest.TestCase):
         result = self.lp.verify_login_failed()
         assert result == True
 
+    @pytest.allure.step("valid login")
     @pytest.mark.run(order=2)
     def test_validLogin(self):
         """

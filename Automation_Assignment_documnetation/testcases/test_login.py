@@ -6,7 +6,7 @@ from utilities.test_data import *
 import logging
 import allure
 
-@allure.title("test login class")
+@allure.story("test login class")
 @allure.feature("tests")
 @pytest.mark.usefixtures("get_driver")
 class TestLogin(unittest.TestCase):

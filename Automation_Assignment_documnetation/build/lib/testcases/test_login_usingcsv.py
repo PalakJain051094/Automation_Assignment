@@ -31,7 +31,7 @@ class TestLogin(unittest.TestCase):
         self.lp = LoginPage(get_driver)
 
     @pytest.mark.run(order=1)
-    @data(*getCSVData("D:/Python_workspace/Automation_Assignment/logindata.csv"))
+    @data(*getCSVData("D:/Python_workspace/Automation_Assignment\Automation_Assignment_documnetation/logindata.csv"))
     @unpack
     def test_validLogin(self,username, pass_word):
         """

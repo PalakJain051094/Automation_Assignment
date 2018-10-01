@@ -509,8 +509,8 @@ class SurveyQuestionPage(BasePage):
 
         * :param self: current instance of class
         * :return: result
-            - True -- if element is present
-            - False -- if element is not present
+            - True -- if element is present in the dom
+            - False -- if element is not present in the dom
         * :rtype: Boolean
         
         """
