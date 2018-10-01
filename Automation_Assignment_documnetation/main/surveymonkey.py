@@ -14,7 +14,7 @@ from utilities.test_data import *
 class SurveyMonkeyWebsite():
     """
 
-    SurveyMonkeyWebsite class is a main class to run the project
+    SurveyMonkeyWebsite class is a main class to run the whole project
 
     """
 
