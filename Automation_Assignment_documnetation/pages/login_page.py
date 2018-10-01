@@ -9,7 +9,7 @@ from base.base_page import BasePage
 class LoginPage(BasePage):
     """
 
-    This class inhert BasePage and has methods to login on survey monkey
+    This class inhert BasePage and has methods to login on survey monkey site
 
     """
 
