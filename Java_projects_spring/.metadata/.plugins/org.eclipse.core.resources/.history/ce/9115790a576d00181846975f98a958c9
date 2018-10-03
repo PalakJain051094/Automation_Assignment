@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/student" 
+xmlns:tns="http://www.example.org/student" elementFormDefault="qualified">
+<element name="student" type="tns:student"/>
+<complexType name="student">
+<sequence>
+<element name="id" type="tns:ID"/>
+<element name="name" type="string"/>
+<element name="dob" type="date"/>
+<element name="email" type="string"/>
+<element name="gender" type="tns:Gender"/>
+<element name="payment" type="tns:paymentFess" />
+</sequence>
+</complexType>
+<complexType name="paymentFess">
+<choice>
+<element name="cash" type="int"></element>
+<element name="card" type="tns:cardPayment"</element>
+</choice>
+</complexType>
+
+<complexType name="cardPayment">
+<all>
+<element name="bank" type="string"></element>
+<element name="limit" type="int"></element>
+</all>
+
+
+</complexType>
+<simpleType name="ID">
+<restriction base="int">
+<pattern value="[0-9]*"></pattern>
+</restriction>
+</simpleType>
+
+<simpleType name="Gender">
+<restriction base="string">
+<enumeration value="M" />
+<enumeration value="F" />
+</restriction>
+</simpleType>
+
+
+
+</schema>

@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: MVC_REST
+Bundle-SymbolicName: MVC_REST
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: MVC_REST.jar,
+ Apache Software Foundation/Tomcat 7.0/lib/servlet-api.jar
+Export-Package: com.Spring_mvc_demo

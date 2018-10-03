@@ -1,0 +1,37 @@
+## Query to Add column 
+ALTER TABLE table_name
+ADD column_name datatype;
+
+## Query to drop or delete column 
+ALTER TABLE table_name
+DROP COLUMN column_name;
+
+##Query to modify column 
+ALTER TABLE table_name
+ALTER/modify COLUMN column_name datatype;
+
+##Query to rename column 
+ALTER TABLE "table_name"
+Change "column 1" "column 2" ["Data Type"];(mysql)
+ALTER TABLE "table_name"
+RENAME COLUMN "column 1" TO "column 2";(oracle)
+
+## Query to add index  
+ALTER TABLE "table_name"
+ADD INDEX "index_name" (column_name);
+
+##Query to drop index  
+ALTER TABLE "table_name"
+DROP INDEX "index_name";
+
+##Query to add constraint
+ALTER TABLE "table_name"
+ADD [CONSTRAINT_NAME] [CONSTRAINT_TYPE] [CONSTRAINT_CONDITION];
+
+##Query to drop constraint
+ALTER TABLE "table_name"
+DROP [CONSTRAINT|INDEX] "CONSTRAINT_NAME";
+
+##query to add autoincrement to column
+ALTER TABLE <tablename> 
+CHANGE COLUMN <column name> <column name> <data type of column> NOT NULL AUTO_INCREMENT ;

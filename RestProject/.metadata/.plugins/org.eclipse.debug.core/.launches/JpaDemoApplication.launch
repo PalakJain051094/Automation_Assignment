@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/jpa_demo/src/main/java/com/jpa_demo/jpa_demo/JpaDemoApplication.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.jpa_demo.jpa_demo.JpaDemoApplication"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="jpa_demo"/>
+</launchConfiguration>

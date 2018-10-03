@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Implementation-Title: SpringMVC
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Palak
+Implementation-Vendor-Id: SpringMVC
+Build-Jdk: 1.8.0_151
+Created-By: Maven Integration for Eclipse
+

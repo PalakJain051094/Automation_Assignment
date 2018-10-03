@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<context:property-placeholder location="classpath:fun.properties"/>
+    <!-- step1: Bean creation   -->
+  <!--    <bean id="mycoach" class="com.firstdemo.TrackCoach"></bean>-->
+    <!-- CONSTRUCTIO INJECTION -->
+    <bean id="myfortunie" class="com.firstdemo.HappyFortuineSevice"></bean>
+    <bean id="mycoach" class="com.firstdemo.BaseballCoach">
+    <constructor-arg ref="myfortunie">
+    </constructor-arg>
+    </bean>
+    <!--  SETTER INJECTION -->
+    <bean id="cricketcoach" class="com.firstdemo.CricketCoach">
+    <property name="fcc" ref="myfortunie"></property>
+     <!-- injection of literal -->
+    <!--   <property name="emailid" value="plk2gmail.com"></property>
+     <property name="team" value="rocker"></property>-->
+     <!-- injection through properties file-->
+      <property name="emailid" value="${foo.email}"></property>
+     <property name="team" value="${foo.team}"></property>
+    </bean>
+    
+  
+   
+</beans>
+
+
+
+
+
