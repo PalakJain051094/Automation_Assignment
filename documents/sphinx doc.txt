@@ -1,0 +1,54 @@
+https://thomas-cokelaer.info/tutorials/sphinx/docstring_python.html
+There are many other Info fields but they may be redundant:
+param, parameter, arg, argument, key, keyword: Description of a parameter.
+type: Type of a parameter.
+raises, raise, except, exception: That (and when) a specific exception is raised.
+var, ivar, cvar: Description of a variable.
+returns, return: Description of the return value.
+rtype: Return type.
+
+
+---https://pythonhosted.org/an_example_pypi_project/sphinx.html#full-code-example
+"def public_fn_with_googley_docstring(name, state=None):
+    """This function does something.
+
+    Args:
+       name (str):  The name to use.
+
+    Kwargs:
+       state (bool): Current state to be in.
+
+    Returns:
+       int.  The return code::
+
+          0 -- Success!
+          1 -- No good.
+          2 -- Try again.
+
+    Raises:
+       AttributeError, KeyError"
+
+----https://pythonhosted.org/an_example_pypi_project/sphinx.html
+easy_install -U sphinx
+sphinx-quickstart
+
+Prompt	Choice
+> Root path for the documentation [.]:	<ENTER>
+> Separate source and build directories (y/N) [n]:	y
+> Name prefix for templates and static dir [_]:	<ENTER>
+> Project name:	an_example_pypi_project
+> Author name(s):	Andrew Carter
+> Project version:	0.0.1
+> Project release [0.0.1]:	<ENTER>
+> Source file suffix [.rst]:	<ENTER>
+> Name of your master document (without suffix) [index]:	<ENTER>
+> autodoc: automatically insert docstrings from modules (y/N) [n]:	y
+> doctest: automatically test code snippets in doctest blocks (y/N) [n]:	n
+> intersphinx: link between Sphinx documentation of different projects (y/N) [n]:	y
+> todo: write “todo” entries that can be shown or hidden on build (y/N) [n]:	n
+> coverage: checks for documentation coverage (y/N) [n]:	n
+> pngmath: include math, rendered as PNG images (y/N) [n]:	n
+> jsmath: include math, rendered in the browser by JSMath (y/N) [n]:	n
+> ifconfig: conditional inclusion of content based on config values (y/N) [n]:	y
+> Create Makefile? (Y/n) [y]:	n
+> Create Windows command file? (Y/n) [y]:	n

@@ -1,0 +1,27 @@
+ChroPath
+
+1. It will generate the absolute XPath and CSS selector for inspected element/selected node.
+
+2. It opens as sidebar tab in devtools panel where you can access DOM, inspect element in left side and write the XPath/CSS in right side and evaluate there itself.
+
+3. It will scroll the window to the 1st matching node (will scroll if 1st matching element not in visible area).
+
+4. You can view the matching node(s) and nodes value as per their sequential occurrence. A dashed blue outline appears around to highlight all the matching elements in the web page.
+
+5. If you mouse hover on any matching node in the ChroPath tab, blue dashed outline will convert into dotted orangered to highlight the corresponding element in the webpage.
+
+6. If the found element is not in visible area on webpage then mouse hover on found node in ChroPath tab will scroll that element in the visible area with dotted orangered outline.
+
+7. If found element is not highlighted but visible on webpage, on mouse hover on matching node in ChroPath tab it will highlight element with dotted orangered outline.
+
+8. If you enter wrong XPath/CSS pattern it will highlight the input box in red color.
+
+9. ChroPath helps as xpath helper, xpath editor, xpath viewer, writing relative xpath, absolute xpath, locators, selenium automation xpath, css viewers, css validator, css editor, css locators, css selectors, xpath selectors, unique xpath, unique css selectors.
+
+10. xpath editor xpath helper xpath viewer for Chrome Browser. Very helpful in Automation testing. Selenium Locators.
+
+11. In short, you can call it is as FirePath for Chrome.
+
+12. get the relative xpath, absolute xpath.
+
+13. A simple extension, a best extension for finding out relative xpath absolute xpath expression of web elements.
