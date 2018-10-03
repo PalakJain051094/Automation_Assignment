@@ -1,0 +1,75 @@
+Standrads to create optimize stored procedure:
+
+1.Set NOCOUNT ON
+Reason: For every select or dml statement, the sql server returns a message which indicates the no of row affected.This information is useful only for debugging.so by setting NOCOUNT ON we can disable the feature of returning this extra information.
+
+2.use fully qualified name 
+for example:databsename.tablename or databasename.procedurename
+Reason:Using fully qualified names eliminates any confusion about which Stored Procedure you want to run and can boost performance because SQL Server has a better chance to reuse the Stored Procedures execution plans if they were executed using fully qualified names.
+
+3.Avoid use of cursors.
+Reason:Cursor uses a lot of resources for processing and maintain current record position which decreases the performance.
+
+4.Keep transcation short as possible.
+Reason:Lengthy transcation affects the blocking and deadloacking.so for faster exceution and less blocking,transcation should kept short.
+
+5.use try and catch for error handling.
+
+6.Don't use sp_ as prefix to name procedure.
+Reason:For procedure name statrs with sp_ the sql server first searches in the master database and then in the current session database.Searching in the master database causes extra overhead and even a wrong result if another stored procedure with the same name found in master database.
+
+7.Use IFEXISTS(select 1) instead of (select *).
+Reason:IFEXIST is used to check the existence of record in another table ,it returns true if any value is returned from an internal statement,either single value "1".
+The output of this statement is not used,hence to minimize the data for processing and network transferring use 1 instead of *.
+
+8.Try to avoid using Data Definition Language (DDL) statements inside your Stored Procedure
+Reason:Using DDL statements inside a Stored Procedure reduces the chance to reuse the execution plan.
+
+9.If Stored Procedure is very large , try to break up the Stored Procedure into several sub-procedures, and call them from a controlling Stored Procedure.
+
+10.use sp_executesql stored procedure instead of execute statement.
+Reason:sp_executesql  supports parameters and also improves the re-usability of code.
+
+11.It is good practice to drop procedure before creating.
+
+12.For good performance avoid OR in WHERE clause.
+
+13.use variables instead of temporary table.
+
+14.It is good practice to write procedure name with    action(create,insert,update,delete).
+for example:update_<name of your procedure>
+
+15.Keywords should be in uppercase(ex:SELECT).
+
+16.Declare variable name in camel case and Stored procedure names, function names, trigger names, Table names and Columns names in query must be in Pascal Case.
+Camel case: ex: thisWord
+Pascal case:ThisWord
+
+17.Table name should be singular.
+
+18.Do not use SELECT * in  queries. Always write the required column names after the SELECT statement. This technique results in reduced disk I/O and better performance.
+
+19.Avoid searching using not equals operators (<> and NOT) as they result in table and index scans.
+Reason:index scanning require more I/O and also take longer to process.
+
+20.Always use a column list in INSERT statements. This helps in avoiding problems when the table structure changes (like adding or dropping a column).
+
+21.Make sure your stored procedures always return a value indicating their status.
+
+22.Try to avoid use of distinct clause ,use it when it is necessary.
+Reason:DISTINCT clause will result in some performance degradation.
+
+23.Try to avoid the HAVING clause, whenever possible,
+Reason:Try to write select statement which contain where and group by clauses without having clause,this can improve the performance of query.
+
+24.Try to restrict the query result set by using the WHERE clause.
+Reason: SQL Server will return only particular rows, not all rows from the table. This can reduce network traffic and boost the overall performance of the query.
+
+25.Use schema name with object name
+Reason:The object name is qualified if used with schema name. Schema name should be used with the Stored Procedure name and with all objects referenced inside the Stored Procedure. This helps in directly finding the complied plan instead of searching the objects in other possible schemas before finally deciding to use a cached plan, if available. This process of searching and choosing a schema for an object leads to COMPILE lock on Stored Procedure and decreases the Stored Procedure's performance. Therefore, always refer to objects with a qualified name in the Stored Procedure.
+
+
+links-- 
+https://blog.sqlauthority.com/2010/02/16/sql-server-stored-procedure-optimization-tips-best-practices/
+
+https://alitarhini.wordpress.com/2011/03/20/development-and-coding-standards-sql-and-database-guidelines/
